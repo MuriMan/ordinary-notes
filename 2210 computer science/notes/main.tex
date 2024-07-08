@@ -1,0 +1,54 @@
+\documentclass{article}
+
+\begin{document}
+\tableofcontents\newpage
+\section {Data Representation}
+\subsection{Number Systems}
+The number system consisting of digits 0 through 9 is called the denary or decimal system
+(10 digits). Computers use another number system called binary, consisting of digits
+0 through 1. This is done such that computers are able to pass the data through logic 
+gates and can be stored in registers.
+
+The number of digits in a number system is the base of that system; denary is base ten;
+binary is base two; hexadecimal is base 16.
+
+\subsubsection*{Conversions}
+From positive denary to positive binary:
+\begin{enumerate}
+	\item Perform short division on given denary number, taking note of the remainders.
+	\item Write the remainders from bottom to top, resulting in the binary number.
+\end{enumerate}
+From positive binary to positive denary:
+\begin{enumerate}
+	\item Write the binary number with their \textit{place powers} .
+	\item Sum the products of each binary digit with the place power, resulting in the
+		converted denary number.
+	\item Write the remainders from bottom to top, resulting in the binary number.
+\end{enumerate}
+From positive denary to positive hexadecimal:
+\begin{enumerate}
+	\item Convert given number to binary
+	\item Split resulting binary number to four-bit parts.
+	\item Convert the four-bit binaries to denary.
+	\item 1 = 1; 2 = 2; ... 10 = A; 11 = B; 12 = C; 13 = D; 14 = E; 15 = F.
+	\item Arrange resulting digits side-by-side.
+\end{enumerate}
+From positive hexadecimal to positive denary:
+\begin{enumerate}
+	\item Convert each given hex number to denary using the index in step 4 of 
+		denary-hex.
+	\item Convert each denary number to binary.
+	\item Arrange the resulting four-bit binary pieces, producing binary result.
+\end{enumerate}
+From positive hexadecimal to positive binary:
+\begin{enumerate}
+	\item Convert to denary.
+	\item Convert to binary.
+\end{enumerate}
+From positive binary to positive hexadecimal:
+\begin{enumerate}
+	\item Convert to binary.
+	\item Convert to denary.
+\end{enumerate}
+
+\end{document}
