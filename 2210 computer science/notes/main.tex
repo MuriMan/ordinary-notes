@@ -1,16 +1,18 @@
-\documentclass{article}
+\documentclass[twocolumn]{article}
 
 \begin{document}
-\tableofcontents\newpage
 \section {Data Representation}
-\subsection{Number Systems}
+\subsection{Number systems}
+
+\subsubsection{Computers and binary}
 The number system consisting of digits 0 through 9 is called the denary or decimal system
 (10 digits). Computers use another number system called binary, consisting of digits
 0 through 1. This is done such that computers are able to pass the data through logic 
 gates and can be stored in registers.
 
-The number of digits in a number system is the base of that system; denary is base ten;
-binary is base two; hexadecimal is base 16.
+\subsubsection{The binary, denary and hexadecimal systems}
+The number of digits in a number system is the base of that system; denary is base 10;
+binary is base 2; hexadecimal is base 16.
 
 \subsubsection*{Conversions}
 From positive denary to positive binary:
@@ -20,7 +22,7 @@ From positive denary to positive binary:
 \end{enumerate}
 From positive binary to positive denary:
 \begin{enumerate}
-	\item Write the binary number with their \textit{place powers} .
+	\item Write the binary number with their \textit{place powers}.
 	\item Sum the products of each binary digit with the place power, resulting in the
 		converted denary number.
 	\item Write the remainders from bottom to top, resulting in the binary number.
@@ -50,5 +52,100 @@ From positive binary to positive hexadecimal:
 	\item Convert to binary.
 	\item Convert to denary.
 \end{enumerate}
+
+\subsubsection{Uses of the hexadecimal system}
+The hexadecimal number system is used to make life easier for humans dealing with 
+bare low-level computer code. Hexadecimal requires less digits, and are easier to compare
+with the naked eye. Data errors can be easier to find when looking at this shortened form
+of binary, hexadecimal.
+
+\subsubsection{Binary addition}
+To add two binary numbers, refer to the following:\\
+\begin{itemize}
+	\item $0 + 0 = 0$.
+	\item $1 + 0 = 1$.
+	\item $1 + 1 = 10$. (the one is carried on)
+\end{itemize}
+
+Sometimes, the addition results in an extra bit, which \textbf{overflows} off. This is
+because computers have predifined limits to which it can store its numbers (16, 32 bits)
+and when a value outside this limit is returned, it is not stored and an overflow error
+occurs.
+
+\subsubsection{Logical binary shifts}
+When performing logical shifts, we simply move the bits of a binary number to the right
+or left depending on what is required. We ``delete" and hence lose the leftmost (most 
+significant) or rightmost (least significant) bit depending on the direction of the shift 
+performed.
+
+Shifting right means dividing by two.
+
+Shifting left means multiplying by two.
+
+\subsubsection{Two's complement}
+Two's complement is a method used to represent negative binary numbers. We simply
+convert given denary number to binary (if need be), invert all the bits and add $(1)_2$ 
+to the result.
+
+\subsection{Text, sound and images}
+\subsubsection{Text}
+Text is converted to binary so that a computer can process it. It does so by converting
+each character into an integer, as defined in the \textbf{ASCII} standard (American 
+Standard Code For Information Interchange) and subsequently into a binary number.
+
+\textbf{Unicode} is another such standard, which allows a greater range of characters, in
+various languages, as a result it also requires more bits per character.
+
+\subsubsection{Sound}
+Sounds are composed of waves. When we record values of the sound, we do so at set 
+intervals, this process is called \textbf{sampling}. The more samples taken per unit
+time, the more accurate the sound recorded will be, i.e., higher the \textbf{sample rate}
+the greater the sound quality.
+
+The sound values, which are usually denary numbers, can be converted to binary and stored
+into a computer.
+
+The \textbf{sample resolution} is the number of bits allocated per sample value. So, the 
+larger the sample resolution, the more the amount of digits that can be stored into a 
+file. Thus, the higher the sample resolution, the higher the sound quality.
+
+The file size of a sound file increases, with increased sample rate and sample 
+resolution, that means storing high quality sound requires more space that low quality
+sound.
+
+\subsubsection{Images}
+An image is composed of \textbf{pixels}. The computer stores these pixels by processing
+them to binary, by assigning a binary number to a certain colour. 
+
+The \textbf{resolution} of an image is the number of pixels stored in it. Usually in the
+format: width $\times$ height.
+
+The \textbf{colour depth} of an image is the number of bits allocated for each pixel
+of the image. Higher the colour depth, the more the number of colours that can be
+displayed.
+
+Higher quality images result in larger file sizes as resolution and colour depth are 
+large.
+
+\subsection{Data storage and compression}
+\subsubsection{Measurement of data storage}
+\begin{itemize}
+	\item Bit: 1 or 0. Smallest possible data measurement.
+	\item Nibble: 4 bits.
+	\item Byte: 8 bits.
+	\item Kibibyte (KiB): 1024 Bytes.
+	\item Mebibyte (MiB): 1024 Kibibytes.
+	\item Gibibyte (GiB): 1024 Mebibytes.
+	\item Tebibyte (TiB): 1024 Gibibytes.
+	\item Pebibyte (PiB): 1024 Tebibytes.
+	\item Exbibyte: (EiB) 1024 Pebibytes.
+\end{itemize}
+
+\subsubsection{File size calculation}
+To calculate the file size of an image, find the product of the image's width, height, 
+colour depth
+
+For the sound's file size, multiply the sample rate, sample resolution and soundtrack
+length.
 
 \end{document}
