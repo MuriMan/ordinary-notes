@@ -1,0 +1,83 @@
+\documentclass{article}
+
+\begin{document}
+\section*{Permutations and Combinations (kinda)}
+\subsection*{Jinish ta ki}
+A permutation is an arrangement of some objects, where sequence matters, a combination is also
+an arrangement of some objects, where sequence does not matter.
+
+That means, ABCD and ACBD are different permutations, but they are the same combination, 
+mathematically speaking.
+
+\subsection*{Problems, how and why}
+Problems from this chapter will consist of asking the candidate to ``find the number of possible
+permutations/arrangements if: blah blah blah". To do so we will employ a few strategies.
+
+Keep in mind, \textit{or} means to add and \textit{and} means to multiply, for more clarification
+read Lee Peng book.
+
+\textbf{Example}  You are given six letters, A ... G. Find the number of possible permutations 
+(arrangements) of these letters if you are to form a word of six letters. 
+
+\textbf{Solution}  For the first letter, from the left we have six choices, for the second letter
+we have five and so on. Since these all have to happen at the same time, we will multiple the 
+choices we have for each spot.
+
+\begin{center}
+	\fbox{6} $\times$ \fbox{5} $\times$ \fbox{4} $\times$ \fbox{3} $\times$ \fbox{2} $\times$ \fbox{1}
+\end{center}
+where each box is a spot. The number of possible arrangements comes out to be $6 \times 5 \times
+4 \times 3 \times 2 \times 1 = 720$.
+
+\subsection*{The P notation}
+\textbf{P} is just a way to save us the hassle of writing this times that a bunch of times. The
+expansion follows:
+
+\[^n\textrm{\textbf{P}}_r = \frac{n!}{(n-r)!}\]
+where $n$ is the number of objects to arrange, and $r$ is the number of spots to arrange them
+in. For the rest of this paper, I'll write it as $n$P$r$ as its easier to type.
+
+\textbf{Example}  You are given six letters, A ... G. Find the number of possible arrangements
+of these letters if you are to form a word of four letters.
+
+\textbf{Solution}  We have six letters, and four spots to put them, the P notation hence says 6P4.
+\begin{center}
+	\fbox{6} $\times$ \fbox{5} $\times$ \fbox{4} $\times$ \fbox{3} = 6P4 = 360
+\end{center}
+
+\subsection*{Conditions}
+With questions that consist of "if this is that" we must modify our simple multiplication rules.
+
+\textbf{Example}  Given the six letters A ... G, find the number of possible arrangements of a four
+letter word if the last letter may only be B, C or D.
+
+\textbf{Solution} The last letter can be B or C or D, which means the number of possible last
+letters is 1 + 1 + 1 = 3. And since we have filled the last letter, we have one less object to put
+in the first spot, and one further less in the second, and so on.
+
+Using the P notation, we have 3 possible last letters, \textit{and} 5 objects remain for the 3 remaining
+spots: 5P3 $\times$ 3.
+\begin{center}
+	\fbox{5} $\times$ \fbox{4} $\times$ \fbox{3} $\times$ \fbox{3} = 5P3 $\times$ 3 = 180
+\end{center}
+
+\textbf{Example} Given the six letters A ... G, find the number of possible arrangements of a four
+letter word if the first or last letter may be B, C or D, but not at the same time.
+
+
+\textbf{Solution} Note that there are two possibilities, seperated by \textit{or} which means we
+should do the two situations seperately and add the results.
+
+For the first situation, see that there are three possible first letter choices, and then 5 objects
+to be arranged into the remaining three spots.
+\begin{center}
+	\fbox{3} $\times$ \fbox{5} $\times$ \fbox{4} $\times$ \fbox{3} = 5P3 $\times$ 3 = 180
+\end{center}
+For the second situation, see that there are three possible last letter choices and then 5 objects
+to be arranged into the remaining three spots.
+\begin{center}
+	\fbox{5} $\times$ \fbox{4} $\times$ \fbox{3} $\times$ \fbox{3} = 5P3 $\times$ 3 = 180
+\end{center}
+Adding the results of the two, we get $180 + 180 = 360$.
+
+\end{document}
