@@ -1,0 +1,155 @@
+\section{Chemical reactions}
+\subsection{Physical and chemical changes}
+In a physical change, the substances present remain chemically the same and no new substances
+are formed. Such changes are often easy to reverse.
+
+Changes such as melting and boiling are endothermic as heat is taken in, changes such as 
+condensing and freezing are exothermic as heat is given out.
+
+Chemical changes are those where a new substances is formed. Most chemical changes happen through
+chemical reactions, almost all of which are exothermic, very few are endothermic.
+
+\subsection{Rate of reaction}
+A reaction progresses when effective collisions occur between reactants to form a molecule of a
+product. The rate of effective collisions is hence the rate of the reaction. This rate of effective
+collisions can be influenced. These effective collisions can only occur if the colliding particles
+have a minimum energy ($E_a$).
+
+Increasing the number of particles per unit volume means there are more particles per unit volume,
+when that is the case the particles are more likely to react.
+
+Increasing the kinetic energy (KE) of particles by applying heat makes them move faster, meaning
+more particles are likely to collide more frequently and with energy greater that $E_a$.
+
+A catalyst is that which increases the rate of a reaction, decreases the $E_a$ and is unchanged
+at the end of the reaction.
+
+Changing solution concentration changes particles per unit volume, refer above.
+
+Changing gas pressure does the same, refer above.
+
+Increasing surface area of solids means there are more exposed surfaces with which reactants can
+effectively collide, meaning effective collisions are more likely. The opposite is also true.
+
+Increasing temperature increases KE of particles, refer above.
+
+Addition of a catalyst, including enzymes, increases reaction rate and decreases $E_a$.
+
+Investigating the rate of a reactioon comes down to measuring the rate at which reactants are used
+up or the rate at which products are formed. The information can be represented in a graph:
+
+\begin{center}
+\begin{tikzpicture}
+    % Axes
+    \draw[->] (0,0) -- (6,0) node[right] {Time};
+    \draw[->] (0,0) -- (0,4) node[above] {Loss in Mass};
+
+    % Curve A (slower and levels off later)
+    \draw[thick] (0,0) .. controls (2,2.5) and (4,3.2) .. (5.5,3.5) node[below, midway] {A};
+
+    % Curve B (faster and levels off earlier)
+    \draw[thick,dashed] (0,0) .. controls (1,3) and (3,3.4) .. (5.5,3.5) node[above, midway] {B};
+    
+\end{tikzpicture}
+\end{center}
+In reaction B, the reactants were powdered, with increased surface area and hence the reaction had
+a faster rate than A with just solid reactants. Notice that they loss in mass is equal but the rate
+of loss of mass is the difference.
+
+\subsection{Reversible reactions and equilibrium}
+Most reactions are one-way, i.e., reactants react to form products and that's it. Some reactions,
+are reversible, in such reactions, reactants react to form products and those products also react
+to form reactants. Such reactions are shown with a ``$\rightleftharpoons$":
+
+\begin{center}
+	\ce{N$_2$(g) + 3H$_2$(g) <=>[forward reaction][backward reaction] 2NH$_3$(g)}
+\end{center}
+
+Changing the direction of a reversible reaction can depend on the conditions applied to it.
+Such is the case for hydrating and making anhydrous salts.
+
+\begin{center}
+	\ce{CoCl2 * 6H2O <=>[heat][water] CoCl2 + 6H2O}
+
+	\ce{CuSO4 * 6H2O <=>[heat][water] CuSO4 + 6H2O}
+\end{center}
+
+Note that, \ce{CuSO4} is white while the hydrated form \ce{CuSO4 * H2O} is blue. Hydrated cobalt (II)
+chloride is pink whereas the anhydrous form is blue.
+
+A closed system is that where no reactants or products can escape from the reacting system. In such
+a system, a reversible reaction is in equilibrium when the rate of forward reaction equals the
+rate of backward reaction and the concentrations of reactants and products are not changing. The
+reagents are reacting but the concentrations do not change.
+
+The position of equilibrium tells us the rate of forward reaction compared to backward reactions.
+That means, if the position of equilibrium is to the right, the rate of forward reaction is greater
+than that of the backward reaction and vice versa.
+
+Note that, when a change is made to the conditions of a system in dynamic equilibrium, the system 
+moves so as to oppose that change.
+
+Changing temperature affects the reaction depending on the enthalpy of the reaction. Changing the
+temperature will cause the equilibrium to shift in the direction that will reverse that change.
+Increasing the temperature in a reaction where the forward reaction is exothermic will shift 
+equilibrium to left, as the system will oppose the change by increasing rate of endothermic 
+reaction to lower temperature. The opposite is also true.
+
+Changing pressure only affects reactions whose reagents are all gaseous. Increasing pressure moves
+equilibrium toward the side which has less gaseous moles. The opposite is also true.
+
+Increasing concentration of reactants moves equilibrium to right and more products are formed and
+vice versa.
+
+Using a catalyst does not affect equilibrium position, but the speed at which the system reaches 
+equilibrium is affected by catalyst.
+
+Below is the symbol equation for the Haber process.
+\begin{center}
+	\ce{N2(g) + 3H2(g) <=>[450 $^{\circ}$C][200 atm] 2NH3(g)} $\Delta H < 0$
+\end{center}
+The nitrogen is gotten from fractional distillation of liquid air and hydrogen is gotten from 
+cracking of crude oil. The above reaction requires an iron catalyst.
+
+In the Contact process, sulfur dioxide is converted into sulfur trioxide.
+\begin{center}
+	\ce{2SO2(g) + O2(g) <=>[450 $^{\circ}$C][2 atm] 2SO3(g)} $\Delta H < 0$
+\end{center}
+The Contact process requires a vanadium (V) oxide, \ce{V2O5} catalyst. Sulfur dioxide is gotten
+from burning or roasting sulfide ores:
+\begin{center}
+	\ce{S(s) + O2(g) -> SO2(g)} 
+\end{center}
+and oxygen is gotten from air.
+
+The conditions in the above industrial processes are such that to optimise economical costs and
+safety.
+
+\subsection{Redox}
+Roman numbers are used to indicate the oxidation number of an element in a compound (iron (II), 
+vanadium (V), etc.).
+
+A redox reaction is where reduction and oxidation occurs simultaneously.
+
+The oxidation of a compound is its gain of oxygen, loss of electrons or increase in oxidation 
+number.
+
+The reduction of a compound is its loss of oxygen, gain of electrons or decrease in oxidation
+number.
+
+Rules for identifying oxidation number:
+\begin{itemize}
+	\item It is zero in uncombined states (B, Mg).
+	\item It is the same as the charge on an ion (B$^{+2}$).
+	\item Sum of oxidation numbers in a compound is zero.
+	\item Sum of oxidation numbers in an ion is equal to the charge in the ion.
+\end{itemize}
+Acidified potassium manganate(VII), \ce{KMnO4}, is an oxidising agent with a purple colour, which it
+loses when it is added to a reducing agent. Aqueous potassium iodide, \ce{KI}, is a reducing agent 
+which turns brown in presence of an oxidising agent.
+
+An oxidising agent is that which oxidises another substance and is itself reduced. A reducing agent
+as a substance that reduces another substance and is itself oxidsed.
+
+Using changes in oxidation numbers, oxidising and reducing agents can be identified.
+

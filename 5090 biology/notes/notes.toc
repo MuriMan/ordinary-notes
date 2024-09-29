@@ -25,3 +25,5 @@
 \contentsline {subsection}{\numberline {6.5}Blood glucose control}{16}{}%
 \contentsline {section}{\numberline {7}Coordination and response in plants}{17}{}%
 \contentsline {subsection}{\numberline {7.1}Coordination and response in plants}{17}{}%
+\contentsline {section}{\numberline {8}Relationships of organisms with one another and with the environment}{18}{}%
+\contentsline {subsection}{\numberline {8.1}Energy flow}{18}{}%

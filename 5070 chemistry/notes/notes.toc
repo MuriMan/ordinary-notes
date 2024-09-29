@@ -1,7 +1,7 @@
-\contentsline {section}{\numberline {1}States of matter}{4}{}%
-\contentsline {subsection}{\numberline {1.1}Solids, liquids and gases}{4}{}%
-\contentsline {section}{\numberline {2}Metals}{6}{}%
-\contentsline {subsection}{\numberline {2.1}Properties of metals}{6}{}%
-\contentsline {subsection}{\numberline {2.2}Uses of metals}{6}{}%
-\contentsline {subsection}{\numberline {2.3}Alloys and their properties}{7}{}%
-\contentsline {subsection}{\numberline {2.4}Reactivity series}{7}{}%
+\contentsline {section}{\numberline {1}Chemical energetics}{3}{}%
+\contentsline {subsection}{\numberline {1.1}Exothermic and endothermic reactions}{3}{}%
+\contentsline {section}{\numberline {2}Chemical reactions}{5}{}%
+\contentsline {subsection}{\numberline {2.1}Physical and chemical changes}{5}{}%
+\contentsline {subsection}{\numberline {2.2}Rate of reaction}{5}{}%
+\contentsline {subsection}{\numberline {2.3}Reversible reactions and equilibrium}{6}{}%
+\contentsline {subsection}{\numberline {2.4}Redox}{7}{}%
