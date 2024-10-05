@@ -1,0 +1,132 @@
+\section{Data representation}
+\subsection{Number systems}
+Computers use logic gates and registers to store data, consisting of two states, on or off which 
+boil down to whether electrons are flowing through a gate or a register. Thus, all data must be
+converted to binary to be processed by a computer.
+
+The binary number system consists of the digits 0 and 1 only. Because of this, it is called a 
+base 2 number system\footnote{A number system with base $n$ has $n$ digits.}. Denary is the numbers
+we use everyday and is a base 10 system with digits 0 through 9. Hexadecimal is a base 16 system
+with the digits 0 through 9 and letters A through F\footnote{A number $x$ will be represented as 
+($x)_n$ where $n$ is the base of the system it is written in.}.
+
+Converting decimal to binary consists of dividing the number to be converted by two, noting down
+the remainders, until the quotient is zero and writing the remainders from bottom to top.
+
+Converting binary to decimal consists of multiplying each binary digit with two raised to the power
+of its place value\footnote{$2^n$, where $n$ is the place value.}. So, to convert the number
+(1101)$_2$:
+
+\begin{minipage}{.5\textwidth}
+	\begin{flushright}
+		\fbox{3} \fbox{2} \fbox{1} \fbox{0}
+
+		\fbox{1} \fbox{1} \fbox{0} \fbox{1}
+	\end{flushright}
+\end{minipage}
+\begin{minipage}{.5\textwidth}
+	place values
+
+	number
+\end{minipage}
+hence,
+$$
+	(1) (2^3) + (1) (2^2) +(0) (2^1) + (1) (2^0) = 13
+$$
+
+To convert denary to hexadecimal, we must first convert to binary. We must split the resulting 
+binary number into four-bit chunks. Each four bit chunk we will again convert to denary and we will
+write the corresponding hexadecimal digits. 0 through 9 in denary is the same as that in 
+hexadecimal, only 10 through 15 in denary is A through F in hexadecimal. For example, the above
+example with (1101)$_2$ is the same as D$_{16}$.
+
+To convert hexadecimal back to binary, we must split it it into each digit, convert each part into
+binary, from there we may convert to denary.
+
+Hexadecimal is easier to understand than binary because it is more concise, has more unique 
+characters and hence mistakes in code can be easily found when sifting through hexadecimal code 
+rather than binary. Hexadecimal codes are also used as colour codes in the format \verb{#RRGGBBAA{ 
+ where
+\verb{RR{ are two digits representing the red component of the colour, \verb{GG{ being the 
+	green, \verb{BB{ and
+\verb{AA{ being blue and alpha respectively.
+
+To add binary numbers, note that: 
+\begin{center}
+1 + 1 = 10
+
+10 + 1 = 11
+
+1 + 0 = 0 + 1 = 1
+
+0 + 0 = 0
+\end{center}
+remember to carry any overflowing digits.
+
+Every register has a maximum value, which corresponds to how many bits it can hold, an $n$-bit 
+register has a maximum value of $2^n$. In addition, due to carrying over of bits, some bits may
+be outside that limit and hence will \textit{overflow} and be ignored.
+
+Bit shifts consist of simply shifting the bits in a register to the left or right:
+\begin{center}
+	\fbox{0} \fbox{0} \fbox{1} \fbox{0}
+\end{center}
+Above is a number (0010)$_2$ = (2)$_{10}$ before a shift. After right shift:
+\begin{center}
+	\fbox{0} \fbox{0} \fbox{0} \fbox{1}
+\end{center}
+it becomes (0001)$_2$ = (1)$_{10}$, meaning it has been divided by two. After left shift:
+\begin{center}
+	\fbox{0} \fbox{1} \fbox{0} \fbox{0}
+\end{center}
+it becomes (0100)$_2$ = (4)$_{10}$, meaning it has been multiplied by two.
+
+To represent negative  numbers in binary, we use the two's complement method. Given $x_{10}$ that
+we must convert, we will first convert the value of $|x_{10}|$ to binary. We will then flip each
+binary bit that results, and add one to that result. This representation works as adding $|x_{10}|$
+and the result will result in zero. So, as seen in a previous example 13$_{10}$ is 1101$_2$. To
+find the binary value of $-13$ we will flip the bits, getting 0010$_2$. Adding one results in
+0011$_2$. This is a proper binary representation as $1101_2 + 0011_2 = 0000_2 = 13_{10} - 13_{10}
+= 0_{10}$. Note that this only works with a fixed register length, as a remaining bit overflowing
+is what allows the sum to be zero.
+
+\subsection{Text, sound and images}
+Text must be converted to binary to be processed by a computer. Each letter is assigned a denary
+value, which is converted to binary in the computer. The American Standard Code for Information
+Interchange (ASCII) specifies 256 denary numbers corresponding to 256 symbols. ASCII is an example
+of a character set, another of which is Unicode, which consists of a greater range of characters,
+including emojis and other languages. Each letter in a text file using the ASCII character set
+can hence be within 8-bit (2$^8$ = 256) but Unicode requires far more bits per character.
+
+To represent sound, the computer uses ``sound values" which are recorded at certain intervals, 
+known as the sample rate. The number of bits used per sound value is called the sample resolution.
+The quality of the sound file depends on these two values. To find the size of a sound file:
+\begin{center}
+	size = sample rate $\times$ sample resolution $\times$ number of samples
+\end{center}
+Intuitively, we can say the higher the sample rate, resolution and number, the larger the sound 
+file.
+
+An image is a series of pixels, arranged in a matrix-like pattern. Each pixel is a value consisting
+of red, blue and green which determines it's colour. The more the bits per pixel, the higher 
+quality the picture. Bits-per-pixel is referred to as colour depth. The number of pixels in the 
+image is called its resolution. The product of these give the file size, which increases with 
+increase in any of these values.
+\begin{center}
+	size = colour depth $\times$ resolution
+\end{center}
+
+\subsection{Data storage and compression}
+Every 1 or 0 in a binary number is a bit. 4 bits is a nibble. 8 bits is a byte. 1024 bytes is a
+kibibyte (KiB). 1024 KiB is one mibibyte (MiB). 1024 MiB is a gibibyte (GiB), so on: tebibyte (TiB),
+pebibyte (PiB) and exibyte (EiB).
+
+Data compression exists to reduce the size of the file, which results in less bandwidth required
+during file transmission, less storage space required and shorter time to transmit said file.
+Compression may be lossy or lossless. 
+
+Lossy compression consists of permanently removing data by
+reducing colour depth or sample rate or resolution.
+
+Lossless compression reduces the file size without permanent loss of data, where it groups together
+repeating pixels with where they occur, called run length encoding (RLE).

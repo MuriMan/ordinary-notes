@@ -1,0 +1,190 @@
+\section{The internet and its uses}
+\subsection{The internet and world wide web}
+
+The internet is upon which the world wide web is based. In other words, the internet is the 
+infrastructure, on which stands the collection of websites and webpages which make up the world
+wide web.
+
+In short, the internet is a very large global network which allows users access to the world wide
+web. The world wide web is the collections of all websites and webpages available to the public.
+
+Each website and webpage in the world wide web has a 
+unique text based address called its uniform resource
+allocator (URL). A URL consists of three main components: the protocol, domain name and webpage or
+file name. It is arranged into a format resembling what follows:
+
+\begin{center}
+\begin{BVerbatim}
+protocol://www.domain-name/webpage
+\end{BVerbatim}
+\end{center}
+The way users obtain webpages from web servers is based on the hypertext transfer protocol (HTTP).
+It consists of users requesting the domain name server (DNS) for a certain website, and the web 
+server responding
+with the IP of that website. Another protocol, built on top of HTTP is HTTPS, standing
+for hypertext transfer protocol secured. This provides another layer of security using digital
+certificates which are given to website owners by certificate authorities. The certificate is given
+if and when the website passes certain security measures tested by said authorities. This layer
+increases security in that the user will now check the authenticity of the digital certificate of
+the website, which the DNS will provide to the user, before exchange of website files.
+
+The user does all this exchanging of website files by means of a web browser. A web browser is a
+piece of software into whose address bar the URL of the desired website is typed in. The web 
+browser then requests the DNS for the website with that URL, if it exists, the 
+DNS 
+gives the browser the site's digital certificate of the site. If the certificate is authentic,
+the browser requests the webpage's IP address. Otherwise, the user is warned and asked if they want
+to proceed. In HTTP, this exchanging of certificates is absent and the webpages are exchanged
+with no intermediary security phases.
+
+Websites are written in a programming language called HTML, standing for hypertext markup language.
+HTML uses ``tags" to define colour, layout etc.
+The primary function of web browsers is to render and display to the user, the website written
+in this language. Modern web browsers provide some additional functions, such as they allow the
+user to bookmark certain websites and declare certain sites as favourites. The user's browsing
+history will also be recorded by the browser to make backtracking easier. Multiple tabs are offered
+for simultaneous browsing. Cookies are temporary files that websites store on the user's machine,
+managing such files is done by the browser. Navigation tools such as going to the previous webpage
+or to the next and such is provided by the web browser, alongside the most basic function of 
+allowing the user to type in their desired address.
+
+Cookies are files on the stored by a website on the user's device. They can be of two types,
+session cookies and persistent cookies.
+
+Session cookies are created when a user enters a webpage, and are deleted as soon as the user 
+exits. An example of usage of such cookies is in online shopping websites, where the ``cart" of
+the user is stored as long as the user is in the site itself, once the user exits, all that they
+had stored in their shopping cart will be lost, as the session cookie storing that data is lost.
+
+Persistent cookies are not deleted once the user exits the webpage, they are permanent. However,
+such cookies have expiration times/dates, beyond which they will be deleted. These are used to
+store users' personal data and allow for automatic logins for the user on certain websites. They
+may also be used to store the user's preferences and such.
+
+\subsection{Digital currency}
+
+A digital currency is that which exists electronically and not physically. An example of such is
+Bitcoin, which is a form of cryptocurrency. Banks are centralised authorities, in that there is
+an authority at the centre of it all that oversees all transactions. Cryptocurrencies are 
+decentralised, in that there is no central authority. Transactions of cryptocurrencies are kept
+track of using a system called blockchain. A blockchain is essentially a list of all records
+of transactions. These are called digital ledgers. With each transaction, a record is appended
+to the blockchain, including a digital signature with time and date of transaction, once this
+data has been entered into the blockchain, it cannot be tampered with. If one wishes to view
+the data, they may, but the data that has been entered into the blockchain has been encrypted,
+making it very difficult to change the data.
+
+\subsection{Cyber security}
+
+When browsing the internet, users are subject to potential perpetrators, in that they may intercept
+and eavesdrop on users' data exchanges. Perpetrators use many strategies to do so. One such 
+strategy is a brute force attack.
+
+A brute force attack, in general, means trying every possible combination of something until it
+works. This is mostly done for getting the user's password, where every possible combination of
+every letter, number and symbol is tried until the correct permutation is stumbled upon.
+
+Perpetrators may intercept users' data by use of packet sniffers, installed onto routers through
+which data packets pass. Packet sniffers are software which examine data packets which pass by
+to check for any possibly useful data. If contained data seems useful, this packet will be sent
+back to the perpetrator.
+
+Using a botnet, perpetrators may attempt a distributed denial of service (DDoS) attack. This is
+achieved by sending malware (bad software, literally) to many devices to use those devices as
+``bots". Each bot will then target a certain web server and send to it multiple requests, 
+simultaneously. A web server can only handle so many requests, as a result the web server crashes.
+Such attacks can also be done on other pieces of network hardware other than web servers.
+
+Hacking is the act of attempting unauthorised access to data. The perpetrator who does this is 
+called a hacker. They do so by means of brute force attacks, exploiting vulnerabilities in systems
+or networks etc.
+
+Malware is any form of malicious software designed to disrupt user's computer or data. Examples
+are: virus, worm, trojan horse, spyware, adware and ransomware.
+
+\begin{itemize}
+	\item Virus: A computer program installed into unassuming user's hard drive. Such software
+		replicates itself, causing the user's device to slow down. It may corrupt the user's
+		files and use up all of the user's primary memory, resulting in system crash.
+	\item Worm: Another self-replicating software, however such software is meant to find and
+		exploit vulnerabilities in a network, replicating itself in those ``holes". This uses
+		up the network bandwidth, clogging and slowing down the whole network.
+	\item Spyware: Software installed onto user's device for the purpose of spying on the user's
+		actions is called spyware. An example is a keylogger, which records all key presses on
+		user's keyboard. This may result in the perpetrator gaining access to victim's passwords.
+	\item Trojan horse: A trojan horse is meant to be a disguise for other malware. The trojan
+		horse looks to be like any other game or such, yet once it has been run, it releases
+		malware into your system.
+	\item Adware: Software that creates pop ups and banner advertisements on user's screen when
+		they are online. These may be annoying, and these are done because the makers of such
+		software are paid by whatever company they are advertising.
+	\item Randsomware: This software encrypts the user's data and restricts the user's access to 
+		it, a sum of money is demanded from the user in exchange for their data. They sometimes
+		threaten public display of user's data if money is not duly paid.
+\end{itemize}
+Pharming is done by perpetrators to gain access to user's personal data. Perpetrators install
+malware into user's machine, and whenever they visit certain websites, they are sent to another
+website, which, visually looks identical to that which they wanted to go to. Here, they put in
+their login details, which the perpetrator now knows and can access.
+
+Phishing is similar to pharming, in that the user is sent to a fake website which mimics a real 
+one. However, in phishing the user is sent an email, which contains a fake link, which mimics a
+real website. The rest of the process is identical to pharming.
+
+Social engineering consists of people being decieved into providing perpetrators their personal
+data.
+
+Such threats can be undone by some strategies. 
+
+Users may utilise access levels, which restrict user's access to certain files on a device 
+depending on the user's ``class". An administrator may have access to any and all files on a 
+system, a user of that system may not have access to all of it.
+
+Anti malware is a kind of software which looks for patterns of actions used by malware, if any
+such applications exist on the user's system, it is reported to the user and action is taken. Anti 
+viruses are such software which locate, isolate and confirm whether the software is malicious. Anti
+spyware uses the same strategy, but specifically for spyware.
+
+Authentication steps can be taken by the user. The user may set their password consisting of 
+seemingly nonsense, using symbols letters, uppercase lowercase and numbers, making it harder
+for perpetrators to guess it. An example may be:
+\begin{center}
+\begin{BVerbatim}
+Kjalf89&(&!)YQOEnv,
+\end{BVerbatim}
+\end{center}
+The user may also set up two-step verification, where, during login, the user is asked to do some
+thing which only they can do. They may have to enter a code which was sent to a device which only
+they have access to.
+
+The user may also set up biometric passwords, where biological data unique to the user only
+must be input. These require biometric devices which can scan, for example, the user's fingerprint,
+retina etc.
+
+It has been seen that older software tend to have more vulnerabilities which perpetrators can
+exploit. Hence, user's should set up systems to automatically update their software to prevent
+being victims of such exploitation.
+
+To avoid being phished or pharmed, users must check spelling and tone of emails, emails with
+typos and strange grammer and tone tend to be malicious.
+
+Attached to links, the URL can be checked by hovering one's cursor over the link. The URL must
+be authentic, for the user to confidently click on it.
+
+Firewalls scan incoming and outgoing data from a user's system, and criteria can be set for the 
+firewall to examine said data. This prevents the user from downloading malicious software onto
+their machine.
+
+Privacy settings can be set by the user on certain accounts to not have their information be sold
+out to companies.
+
+Proxy servers can be used by web servers to act as a barrier to the web server. The proxy server
+examines each request before passing it through to the web server. A proxy server prevents 
+multiple requests from the same IP, and when the server is bombarded with requests, it passes
+the requests through at a slower rate to prevent crashing.
+
+The HTTPS protocol uses either the secure sockets layer (SSL) or transport layer security (TLS)
+to determine the security of websites. Checking a website's URL before accessing it can be
+useful in that, one can check whether the website is secured. This usually boils down to checking
+whether the website URL has a padlock beside the address bar and that the protocol is HTTP or
+HTTPS.

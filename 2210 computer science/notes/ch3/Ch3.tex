@@ -1,0 +1,270 @@
+\section{Hardware}
+\subsection{Computer architecture}
+
+The central processing unit (CPU) is where all instructions and data are processed, from inputs
+to produce outputs. 
+
+Microprocessors are processing units 
+on single chips
+which are integrated circuits made to perform many of the
+functions of a CPU, but to a limited degree.
+
+In a computer with the Von Neumann architecture, the CPU consits of two units, the arithmetic logic
+unit (ALU) and the control unit (CU). It has five registers: the program counter (PC), 
+memory address
+register (MAR), memory data register (MDR), current instruction register (CIR) and accumulator
+(ACC). It also has the address, data and control buses.
+
+In the Von Neumann architecture, instructions are processed in a fetch-decode-execute (FDE) cycle.
+
+Data and instructions stored in the the random access memory (RAM), such instructions or data may
+be stored in the hard drive, before processing which they will be brought into RAM. The PC is
+a register which stores the address of the next instruction to be processed. This address, during
+the fetch stage, must be brought into the MAR, which is done by the address bus. The address of
+the instruction, now in the MAR, is used to find the data/instruction in RAM. The address bus
+goes to that location and sends the data stored there (be it an instruction or some values) to the
+MDR using the data bus. Using the data bus, the MDR sends the instruction to the CIR, which is 
+part of the control unit, which is responsible for decoding the instruction.
+
+Once the CU has recieved the instruction, it decodes it using an instruction set which is the set
+of all commands that the CPU is capable of executing. These commands are usually in machine code.
+
+The execute stage may involve some mathematical calculations, done by the ALU. Any values needed
+to be stored temporarily are stored in the ACC.
+
+The CU synchronises all the parts of the CPU to do what they need to, using the control bus.
+
+Each CPU has a cache, multiple cores and an internal clock. 
+
+Each core in a CPU consists of the 
+parts described above, hence the more the cores, the more instructions that can be processed
+simultaneously, increasing CPU performance.
+
+The internal clock controls the speed at which instructions are processed. A clock speed of 1 Hz
+means 1 instruction is processed per second. The more the clock speed, the faster the CPU. However,
+increasing the clock speed beyond a certain value can cause overheating of the CPU and result in
+damage.
+
+The cache is where instructions most commonly performed by the CPU is stored. The larger the 
+capacity of the cache, the more instructions that can be stored, more instructions can be accessed
+faster, hence increasing CPU speed.
+
+Embedded systems are used to perform dedicated functions, such as domestic appliances, cars, 
+security systems, lighting systems or vending machines. This is different to a personal 
+computer in that these can perform many different tasks and are not usually hyper-specific.
+
+\subsection{Input and output devices}
+
+Input devices are those used to enter data into a computer system, including text, images and 
+sound.
+
+Barcode scanners are input devices which throw light onto barcodes, and depending on which parts
+are reflected and which are not, scan the information stored in the barcode into the computer.
+
+Digital cameras use light and colour sensitive cells to form pixels, which, when arranged as a
+matrix can form an image.
+
+Keyboards have buttons, called keys, which, when pressed, signal the computer that a certain letter
+has been input.
+
+Microphones have sensors that produce different electric signals depending on the sound level 
+around it, which can be input into the computer.
+
+Optical mice work using a red-light source and a sensor to pick up said source. Using the changing
+patterns of light sensed, the location of the mouse is calculated and inputted into the computer.
+
+A quick response (QR) code scanner does the same as a barcode, but instead of a linear series of
+dark and light lines, a QR code consists of dark and light squares on a matrix.
+
+Touchscreens are of three types: resistive, capacitive and infrared. 
+
+Resistive touchscreens have two layers, when pressure is applied, the two layers come in contact
+and an electric circuit is completed, the position of contact can also be calculated. Such screens
+do not support multi-touch, give poor visibility in sunlight, and are easily scratched. One must 
+also press down quite hard to use such screens. However, they are dust and water resistant, and
+can be used with anything (gloves, stylus, whatever).
+
+Capacitive touchscreens have an electric field around them. When a finger is place in said field, 
+the field is disturbed and the position of the finger can be calculated. Such screens have good
+image clarity, even in sunlight. They are resistance to scratched and support multi-touch. However,
+they only work with bare fingers or special styluses and are sensitive to electromagnetic radiation
+as those too disturb the electric field.
+
+Infrared touchscreens consist of infrared rays passed across the screen in a matrix pattern. When
+a finger touches the screen, these rays are blocked and the sensors which do not recieve their 
+respective rays can be used to calculate the position of the fingers. Such screens allow 
+multi-touch, are durable and work with scratched or cracked screens. Contrastingly, they are 
+water/moisture sensitive, accidental activation is possible if anything blocks the screen and
+are sometimes affected by light.
+
+Two dimensional (2D) scanners are used to scan flat documents, done by lighting the document 
+producing an image which is made electric by photosensitive cells.
+
+Three dimensional (3D) scanners scan solid objects and produce digital images of actual objects,
+they can be used in computer aided design (CAD).
+
+The result of computer processing is shown by output devices.
+
+Actuators are output devices that consist of solenoids whose electromagnetic fields and electric 
+fields result in a force
+acting on something.
+
+Digital light processing (DLP) projectors pass light through micromirrors whose arrangement
+and number define the resolution of the digital image. The light after passing through these 
+mirrors passes through a colour filter to produce colour on the projected image.
+
+Inkjet printers have print heads which spray droplets of ink onto the paper to form characters.
+Ink cartridges from which they derive the ink, colours and all (using magneta, cyan and yellow 
+combinations). A mechanism to move the print head side to side and a paper feed which simply gives
+the printer paper to print on. Such printers use either thermal bubble technology, which uses
+heat to partially vapourise ink to form a bubble and pass some of it onto the paper. When the
+bubble collapses, negative pressure draws more ink into the print head. Piezoelectric technology
+uses crystals, which, when they vibrate, force ink onto the paper.
+
+Laser printers use ink powder instead of liquid ink. The paper to be printed upon is given an 
+electric charge opposite to that in the ink, in places where the printing must occur. As a result,
+ink sticks to the paper. Once printing is completed, the charge on the paper is removed to prevent
+paper from sticking to the charged ink drum inside the laser printer.
+
+Light emitting diodes, LEDs, can be arranged with red, blue and green components to create colours
+in light. Different amounts of different colours can result in images being produced.
+
+Liquid crystal display (LCD) projectors pass light through red, green and blue mirrors. LCD screns,
+depending on the amount of colour on each pixel, block and allow light to pass through and finally
+it all converges to form an image through a prism.
+
+LCD screens use changed electric fields to produce different colours. They are backlit by either
+LEDs or CCFL technology.
+
+Loudspeakers convert stored sound values in the computer to physical sound waves by using those
+sound values to vibrate a physical cone which can then produce corresponding sound waves.
+
+3D printers can print directly and additively, moving the print head wherever it requires and 
+adding some material in those places. Sometimes, the material is first printed as a powder and then
+it is all made sturdy using glue. They can be used to make custom parts, prosthetic limbs, art, etc.
+
+Sensors are input devices which read conditions of their surroundings and convert them to digital
+values using a digital to analogue converter (DAC).
+
+Acoustic sensors are like microphones which take readings of sound levels in surroundings.
+
+Accelerometers measure tehe change in velocity using a piezoelectric cell whose output varies
+with change in velocity.
+
+Flow sensors produce output based on the amount of fluid passing around it per unit time.
+
+Gas sensors use various methods to output the amount of the gas being monitored.
+
+Humidity sensors measure the water vapour in a sample of air based on the conductivity of that 
+sample.
+
+Using ultrasonic or capacitive methods, level sensors sense the depths of liquids or caverns or
+whatever.
+
+Light sensors use photoelectric cells to produce an output depending on the level of light being
+sensed.
+
+Magnetic field sensors output the change in magnetic field.
+
+Moisture sensors measure water levels in soil based on resistance of sample.
+
+pH sensors use changes in voltages in sample to output a pH value.
+
+Pressure sensors are transducers which generate different electric currents based on pressure
+applied.
+
+Proximity sensors sense the presence of a nearby object.
+
+Temperature sensors produce signals with change in temperature.
+
+\subsection{Data storage}
+
+Primary storage is that which can be directly accessed by the CPU. It consists of the RAM and the
+read only memory (ROM). The ROM contains instructions and programs to boot up to computer and the
+BIOS. RAM is where instructions to be processed are stored. Hence, RAM is an ever-changing part
+of storage, and is volatile in that whatever is stored in RAM will be lost once the computer is
+powered down. The ROM is non-volatile and the data stored in it never changes.
+
+Secondary storage is that which is never directly accessed by the CPU, it too, is non-volatile.
+Permanent data is stored as secondary storage.
+
+Secondary storage is done in magnetic, optical and solid state storage methods.
+
+Magnetic storage consists of disks called platters on which, magnetism is used to store data. The
+disk is separated into sectors and tracks and the disk spins to allow data to be read and written.
+An electromagnetic head is used to read or write the data by magnetising dots on these tracks
+and sectors, an example of such storage are hard disk drives.
+
+Optical storage utilises lasers to read and write data from a circular disk. Writing data consists
+of burning physical pits into the disk itself using the laser. Reading data is also done by a 
+laser using the pits and lands and the data that they store. Examples of such storage include
+digital versatile disks (DVDs), compact disks (CDs) and Blu-rays.
+
+CDs, read/write DVDs (DVD-RW) and Blu-ray disks have a single track, whereas DVD-RAM have multiple
+concentric tracks.
+
+Such storage media require moving parts, which can go wrong. They are not very portable either as
+the read-write equipment for the technologies can be quite heavy.
+
+Solid state storage lacks moving parts and uses semiconductor chips to store bits. Such storage
+is often called flash memory. Cells and transistors laid out in a grid, parallely in NOR structures
+and serially in NAND structures store the data. Using currents sent through the control gates of
+transistors, each transistor can hold the value of 0 or 1.
+
+Hard disk drives are cheaper, and longer lasting than SSDs. They are also trusted technology.
+However, SSDs need not get upto speed, have faster read/write cycles, run quieter and cooler,
+are more portable and lighter, and are more compact.
+
+When there is not enough space in RAM to hold all the data that it must for a certain task, virtual
+memory is created in the secondary storages. The excess data to be stored in this storage is 
+structured into data structures called ``pages". These pages are transferred back to the RAM
+when need be.
+
+Cloud storage consists of servers in a remote location away from the user, on which the user may
+store what they want. In comparison to local storage, that which is stored in the cloud can be
+accessed from anywhere if one simply has an Internet connection. Data stored locally can only
+be accessed from the computer it is stored on and the network(s) it is connected to. For 
+businessses, companies providing cloud storage can be more economical than storing their things
+themselves, sustaining their servers themselves and hiring personnel to do so, themselves. Cloud
+storage may be risky as such servers can be tapped by eavesdroppers.
+
+\subsection{Network hardware}
+
+To access networks\footnote{A network consists of routers, devices and transmission media},
+such as the Internet, a device requries a network interface card (NIC). NICs may be wired or 
+wireless.
+
+During manufacture, NICs are assigned media access control addresses (MACs), which are unique for
+each device and include the manufacturer's code and the device specific serial code. It falls into 
+the
+following format:
+\begin{center}
+	\begin{BVerbatim}
+	XX:XX:XX:XX:XX:XX
+	\end{BVerbatim}
+\end{center}
+or,
+\begin{center}
+	\begin{BVerbatim}
+	XX-XX-XX-XX-XX-XX
+	\end{BVerbatim}
+\end{center}
+where each \verb{XX{ is an 8-bit hexadecimal number.
+
+An internet protocol (IP) address is used to identify each unique device on the same network. Such
+addresses may be static, in that they will never change, or dynamic, in that they change each time
+the device connects to the network. IP addresses have two versions, IPv4, which is now quite old
+and deprecated, consisting of four 8-bit denary numbers seperated by a period (\verb{.{). IPv4
+falls into the following format:
+\begin{center}
+	\begin{BVerbatim}
+	XX.XX.XX.XX
+	\end{BVerbatim}
+\end{center}
+IPv6 falls into the following format:
+\begin{center}
+	\begin{BVerbatim}
+	XXXX:XXXX:XXXX:XXXX:XXXX:XXXX:XXXX:XXXX
+	\end{BVerbatim}
+\end{center}
+where \verb{XXXX{ is a sixteen bit hexadecimal number.

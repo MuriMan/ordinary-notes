@@ -1,0 +1,116 @@
+\section{Data transmission}
+\subsection{Types and methods of data transmission}
+
+Large amounts of data, before transmission, is broken into smaller pieces called packets. 
+
+A packet consists of a packet header, a payload, and a packet trailer. The packet header holds
+the packet number, required for rearrangement of the packets after complete transmission, the
+sender's address and the destination address. The payload is the data being transmitted and the
+trailer holds any error-checking systems and also notifies the reciever that the packet has ended.
+
+Data is transmitted across networks, which consist of multiple devices including routers. Routers
+decide the route of a packet, which it decides based on which route is busy. As a result, some
+packets may have taken a smaller route and may have arrived before others, causing them to be out
+of order. The recieving device uses the packet numbers to rearrange the transmitted data once the
+last packet has arrived.
+
+Data can be transmitted as serial, parallel, simplex, half-duplex or full-duplex.
+
+Serial transmission is the transmission of data in one bit at at a time. Data as a result, arrives
+in order, interference is less likely due to there being only one wire and hence is cheaper as only
+one wire need be bought and used. Data is also less likely to be skewed for the same reasons. 
+However, transmission in this method is slow, and additional data called start bits and stop bits
+may need to be sent to inform the recieving device when the transmission has started and stopped.
+
+Parallel data transmission consists of bits being transmitted simultaneously, across multiple
+wires. Data transmission in this method is quicker and since computers transmit data in parallel,
+there is no need for conversion. However, since multiple wires are being used the data may arrive
+out of order and may be skewed. Interference is more likely as well. Multiple wires are also
+pricey.
+
+Simplex data transmission is where data can only be transmitted in one direction.
+
+Half-duplex transmission is where data can be transmitted in both directions, but not 
+simultaneously.
+
+Duplex transmission is where data can be transmitted in both directions, simultaneously.
+
+The Universal Serial Bus (USB) interface is an industry standard used to transmit data in serial.
+Such interfaces have only one correct connection, meaning no errors in connection can be made. The
+speed of transfer is also high in such interfaces. Howewver, a USB cable can only be 5 metres long,
+beyond which extenders must be used. Though transmission is fast, it is not as fast as ethernet.
+
+\subsection{Methods of error detection}
+
+Errors can arise during data transmission due to interference, which result in data loss, gain or
+change. So, to ensure correct data has been transmitted, we must check for errors.
+
+Parity bits are used at the beginning or end of every byte, leaving 7 bits of actual data. Odd or
+even parity may be used. The method consists of counting the number of 1-bits in the 7 bits of 
+data, if the parity is odd and the number of 1s is even, the parity bit is set to 1 to make the
+number of 1s in the number odd. Same applies for even parity. Below are examples where the leftmost
+bit is the parity bit.
+
+\vspace{.2cm}
+\begin{minipage}{.5\textwidth}
+\begin{flushright}
+	\fbox{1} \fbox{1} \fbox{0} \fbox{1} \fbox{1} \fbox{1} \fbox{0} \fbox{1}
+
+	\fbox{0} \fbox{1} \fbox{0} \fbox{1} \fbox{1} \fbox{1} \fbox{0} \fbox{1}
+\end{flushright}
+\end{minipage}
+\begin{minipage}{.4\textwidth}
+	even parity
+
+	odd parity
+\end{minipage}
+\vspace{.2cm}
+
+The checksum method consists of using a certain algorithm to find a value using the data 
+transmitted. The value is calculated on the sender's end and transmitted with the data, the 
+reciever also calculates it and compares with the value the sender transmitted, if they match, data
+is errorless, otherwise an error is there in the data.
+
+Echo checks consist of data being sent to reciever, and the reciever sending it back the to sender.
+The sender compares it's recieved data with that which it sent, if an error is found, the data is
+re-sent.
+
+Check digits are used to check for errors during data entry. The check digit may already have been
+calculated and may exist in a database. During entry, the check digit is recalculated and compared
+with that stored in the database, if they are not the same, wrong data has been entered. This is
+mostly used during entry of data using barcodes and ISBN, the standard for book codes.
+
+The automatic repeat query (ARQ) can be have negative or positive feedbacks. ARQ using negative
+feedback follows:
+\begin{enumerate}
+	\item Sending device transmits packet
+	\item The reciever checks for errors
+	\item If no errors are found, no further action is taken
+	\item Otherwise negative acknowledgement is sent to sender.
+	\item Sender recieves negative acknowledgement and re-sends the data.
+	\item A timeout is set by sending device during transmission, if it recieves no acknowledgement
+		after timeout, it will stop listening for acknowledgements.
+\end{enumerate}
+
+Using positive feedback:
+\begin{enumerate}
+	\item Sending device transmits packet
+	\item Recieving device checks for errors
+	\item If none found, positive acknowledgement is sent
+	\item If no acknowledgement sent within certain time, data is resent, this may happen for a set
+		number of times before data transmission is stopped.
+\end{enumerate}
+
+\subsection{Encryption}
+Data must be encrypted during transmission so as to protect important data from being tapped.
+Encryption is done upon plain text to turn it to cipher text using encryption key. 
+
+Symmetric
+encryption uses the same key to encrypt and decrypt, the key is transmitted with the data to
+enable the recieving device to decrypt the message. 
+
+Asymmetric encryption uses public and private
+keys, which are generated together and a certain user's public key can encrypt the message in
+such a way that the decryption of that message can only be done by that user's private key. So,
+before transmission, the reciever sends the sender his public key, the sender encrypts data using 
+it, and transmits the data. The reciever decrypts it using his private key.
