@@ -8,3 +8,10 @@
 \contentsline {subsection}{\numberline {3.2}Rate of reaction}{7}{}%
 \contentsline {subsection}{\numberline {3.3}Reversible reactions and equilibrium}{8}{}%
 \contentsline {subsection}{\numberline {3.4}Redox}{9}{}%
+\contentsline {section}{\numberline {4}Metals}{11}{}%
+\contentsline {subsection}{\numberline {4.1}Properties of metals}{11}{}%
+\contentsline {subsection}{\numberline {4.2}Uses of metals}{12}{}%
+\contentsline {subsection}{\numberline {4.3}Alloys and their properties}{12}{}%
+\contentsline {subsection}{\numberline {4.4}Reactivity series}{13}{}%
+\contentsline {subsection}{\numberline {4.5}Corrosion of metals}{14}{}%
+\contentsline {subsection}{\numberline {4.6}Extraction of metals}{14}{}%
