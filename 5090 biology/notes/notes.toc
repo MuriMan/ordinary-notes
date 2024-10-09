@@ -16,32 +16,43 @@
 \contentsline {subsection}{\numberline {6.1}Photosynthesis}{13}{}%
 \contentsline {subsection}{\numberline {6.2}Leaf structure}{14}{}%
 \contentsline {subsection}{\numberline {6.3}Mineral nutrition}{15}{}%
-\contentsline {section}{\numberline {7}Human gas exchange}{16}{}%
-\contentsline {subsection}{\numberline {7.1}Human gas exchange}{16}{}%
-\contentsline {section}{\numberline {8}Respiration}{18}{}%
-\contentsline {subsection}{\numberline {8.1}Respiration}{18}{}%
-\contentsline {subsection}{\numberline {8.2}Aerobic respiration}{18}{}%
-\contentsline {subsection}{\numberline {8.3}Anaerobic respiration}{18}{}%
-\contentsline {section}{\numberline {9}Transport in humans}{19}{}%
-\contentsline {subsection}{\numberline {9.1}Circulatory system}{19}{}%
-\contentsline {subsection}{\numberline {9.2}Heart}{19}{}%
-\contentsline {subsection}{\numberline {9.3}Blood vessels}{20}{}%
-\contentsline {subsection}{\numberline {9.4}Blood}{21}{}%
-\contentsline {section}{\numberline {10}Disease and immunity}{22}{}%
-\contentsline {subsection}{\numberline {10.1}Disease}{22}{}%
-\contentsline {subsection}{\numberline {10.2}Antibiotics}{24}{}%
-\contentsline {subsection}{\numberline {10.3}Immunity}{24}{}%
-\contentsline {section}{\numberline {11}Excretion}{26}{}%
-\contentsline {subsection}{\numberline {11.1}Excretion}{26}{}%
-\contentsline {subsection}{\numberline {11.2}Urinary system}{26}{}%
-\contentsline {section}{\numberline {12}Coordination and control}{27}{}%
-\contentsline {subsection}{\numberline {12.1}Mammalian nervous system}{27}{}%
-\contentsline {subsection}{\numberline {12.2}Mammalian sense organs}{28}{}%
-\contentsline {subsection}{\numberline {12.3}Mammalian hormones}{28}{}%
-\contentsline {subsection}{\numberline {12.4}Homeostasis}{29}{}%
-\contentsline {subsubsection}{\numberline {12.4.1}Temperature control}{29}{}%
-\contentsline {subsection}{\numberline {12.5}Blood glucose control}{29}{}%
-\contentsline {section}{\numberline {13}Coordination and response in plants}{30}{}%
-\contentsline {subsection}{\numberline {13.1}Coordination and response in plants}{30}{}%
-\contentsline {section}{\numberline {14}Relationships of organisms with one another and with the environment}{31}{}%
-\contentsline {subsection}{\numberline {14.1}Energy flow}{31}{}%
+\contentsline {section}{\numberline {7}Transport in flowering plants}{16}{}%
+\contentsline {subsection}{\numberline {7.1}Uptake and transport of water and ions}{16}{}%
+\contentsline {subsection}{\numberline {7.2}Transpiration and translocation}{16}{}%
+\contentsline {section}{\numberline {8}Human nutrition}{18}{}%
+\contentsline {subsection}{\numberline {8.1}Diet}{18}{}%
+\contentsline {subsection}{\numberline {8.2}Human digestive system}{19}{}%
+\contentsline {subsection}{\numberline {8.3}Absorption and assimilation}{20}{}%
+\contentsline {section}{\numberline {9}Human gas exchange}{22}{}%
+\contentsline {subsection}{\numberline {9.1}Human gas exchange}{22}{}%
+\contentsline {section}{\numberline {10}Respiration}{24}{}%
+\contentsline {subsection}{\numberline {10.1}Respiration}{24}{}%
+\contentsline {subsection}{\numberline {10.2}Aerobic respiration}{24}{}%
+\contentsline {subsection}{\numberline {10.3}Anaerobic respiration}{24}{}%
+\contentsline {section}{\numberline {11}Transport in humans}{25}{}%
+\contentsline {subsection}{\numberline {11.1}Circulatory system}{25}{}%
+\contentsline {subsection}{\numberline {11.2}Heart}{25}{}%
+\contentsline {subsection}{\numberline {11.3}Blood vessels}{26}{}%
+\contentsline {subsection}{\numberline {11.4}Blood}{27}{}%
+\contentsline {section}{\numberline {12}Disease and immunity}{28}{}%
+\contentsline {subsection}{\numberline {12.1}Disease}{28}{}%
+\contentsline {subsection}{\numberline {12.2}Antibiotics}{30}{}%
+\contentsline {subsection}{\numberline {12.3}Immunity}{30}{}%
+\contentsline {section}{\numberline {13}Excretion}{32}{}%
+\contentsline {subsection}{\numberline {13.1}Excretion}{32}{}%
+\contentsline {subsection}{\numberline {13.2}Urinary system}{32}{}%
+\contentsline {section}{\numberline {14}Coordination and control}{33}{}%
+\contentsline {subsection}{\numberline {14.1}Mammalian nervous system}{33}{}%
+\contentsline {subsection}{\numberline {14.2}Mammalian sense organs}{34}{}%
+\contentsline {subsection}{\numberline {14.3}Mammalian hormones}{34}{}%
+\contentsline {subsection}{\numberline {14.4}Homeostasis}{35}{}%
+\contentsline {subsection}{\numberline {14.5}Blood glucose control}{35}{}%
+\contentsline {section}{\numberline {15}Coordination and response in plants}{36}{}%
+\contentsline {subsection}{\numberline {15.1}Coordination and response in plants}{36}{}%
+\contentsline {section}{\numberline {16}Development of organisms and continuity of life}{37}{}%
+\contentsline {subsection}{\numberline {16.1}Nuclear division}{37}{}%
+\contentsline {subsection}{\numberline {16.2}Asexual and sexual reproduction}{38}{}%
+\contentsline {subsection}{\numberline {16.3}Sexual reproduction in plants}{39}{}%
+\contentsline {subsection}{\numberline {16.4}Sexual reproduction in humans}{40}{}%
+\contentsline {section}{\numberline {17}Relationships of organisms with one another and with the environment}{43}{}%
+\contentsline {subsection}{\numberline {17.1}Energy flow}{43}{}%
