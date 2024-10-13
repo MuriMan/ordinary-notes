@@ -54,5 +54,13 @@
 \contentsline {subsection}{\numberline {16.2}Asexual and sexual reproduction}{38}{}%
 \contentsline {subsection}{\numberline {16.3}Sexual reproduction in plants}{39}{}%
 \contentsline {subsection}{\numberline {16.4}Sexual reproduction in humans}{40}{}%
-\contentsline {section}{\numberline {17}Relationships of organisms with one another and with the environment}{43}{}%
-\contentsline {subsection}{\numberline {17.1}Energy flow}{43}{}%
+\contentsline {section}{\numberline {17}Inheritance}{43}{}%
+\contentsline {subsection}{\numberline {17.1}Variation}{43}{}%
+\contentsline {subsection}{\numberline {17.2}DNA}{43}{}%
+\contentsline {subsection}{\numberline {17.3}Inheritance}{43}{}%
+\contentsline {subsection}{\numberline {17.4}Selection}{45}{}%
+\contentsline {section}{\numberline {18}Biotechnology and genetic modification}{46}{}%
+\contentsline {subsection}{\numberline {18.1}Biotechnology}{46}{}%
+\contentsline {subsection}{\numberline {18.2}Genetic modification}{47}{}%
+\contentsline {section}{\numberline {19}Relationships of organisms with one another and with the environment}{48}{}%
+\contentsline {subsection}{\numberline {19.1}Energy flow}{48}{}%
