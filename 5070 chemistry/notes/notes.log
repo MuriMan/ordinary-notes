@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.13)  9 OCT 2024 21:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.13)  27 OCT 2024 16:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -301,27 +301,53 @@ Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
 \c@FancyVerbLine=\count304
 \FV@StepNumber=\count305
 \FV@OutFile=\write4
+) (/usr/local/texlive/2024/texmf-dist/tex/generic/chemfig/chemfig.sty (/usr/local/texlive/2024/texmf-dist/tex/generic/chemfig/chemfig.tex (/usr/local/texlive/2024/texmf-dist/tex/generic/simplekv/simplekv.tex
+Package: simplekv 2023/10/02 v0.2c Simple keyval package (CT)
+) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowinset=\dimen258
+\pgfarrowlength=\dimen259
+\pgfarrowwidth=\dimen260
+\pgfarrowlinewidth=\dimen261
+)
+\CF_cnt_atomgroup=\count306
+\CF_cnt_group=\count307
+\CF_cnt_atom=\count308
+\CF_cnt_cycle=\count309
+\CF_cnt_cyclebonds=\count310
+\CF_cnt_compound=\count311
+\CF_dim=\dimen262
+\CF_turnangle=\dimen263
+\CF_arrowsize=\dimen264
+\CF_zero=\dimen265
+\CF_box=\box74
+\CF_boxstuff=\box75
+\CF_testbox=\box76
+\CF_chargebox=\box77
+\CF_substtoks=\toks32
+)
+Package: chemfig 2023/12/28 v1.66 Draw molecule with an easy syntax (CT)
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/mhchem/mhchem.sty
 Package: mhchem 2024/01/29 v4.10 for typesetting chemical formulae
  (/usr/local/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2024-07-20 L3 programming layer (loader) 
  (/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count306
-\l__pdf_internal_box=\box74
+\l__color_backend_stack_int=\count312
+\l__pdf_internal_box=\box78
 )) (/usr/local/texlive/2024/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2024-05-08 LaTeX2e option processing using LaTeX3 keys
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count307
-\calc@Bcount=\count308
-\calc@Adimen=\dimen258
-\calc@Bdimen=\dimen259
+\calc@Acount=\count313
+\calc@Bcount=\count314
+\calc@Adimen=\dimen266
+\calc@Bdimen=\dimen267
 \calc@Askip=\skip62
 \calc@Bskip=\skip63
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count309
+\calc@Ccount=\count315
 \calc@Cskip=\skip64
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2024/05/23 v2.17q AMS math features
@@ -330,65 +356,65 @@ Package: amsmath 2024/05/23 v2.17q AMS math features
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen260
+\pmbraise@=\dimen268
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count310
+\inf@bad=\count316
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count311
-\leftroot@=\count312
+\uproot@=\count317
+\leftroot@=\count318
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count313
-\DOTSCASE@=\count314
+\classnum@=\count319
+\DOTSCASE@=\count320
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
-\Mathstrutbox@=\box75
-\strutbox@=\box76
+\Mathstrutbox@=\box79
+\strutbox@=\box80
 LaTeX Info: Redefining \big on input line 721.
 LaTeX Info: Redefining \Big on input line 722.
 LaTeX Info: Redefining \bigg on input line 723.
 LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen261
+\big@size=\dimen269
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count315
+\macc@depth=\count321
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count316
+\c@MaxMatrixCols=\count322
 \dotsspace@=\muskip17
-\c@parentequation=\count317
-\dspbrk@lvl=\count318
-\tag@help=\toks32
-\row@=\count319
-\column@=\count320
-\maxfields@=\count321
-\andhelp@=\toks33
-\eqnshift@=\dimen262
-\alignsep@=\dimen263
-\tagshift@=\dimen264
-\tagwidth@=\dimen265
-\totwidth@=\dimen266
-\lineht@=\dimen267
-\@envbody=\toks34
+\c@parentequation=\count323
+\dspbrk@lvl=\count324
+\tag@help=\toks33
+\row@=\count325
+\column@=\count326
+\maxfields@=\count327
+\andhelp@=\toks34
+\eqnshift@=\dimen270
+\alignsep@=\dimen271
+\tagshift@=\dimen272
+\tagwidth@=\dimen273
+\totwidth@=\dimen274
+\lineht@=\dimen275
+\@envbody=\toks35
 \multlinegap=\skip66
 \multlinetaggap=\skip67
-\mathdisplay@stack=\toks35
+\mathdisplay@stack=\toks36
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/chemgreek/chemgreek.sty (/usr/local/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2024-05-08 L3 Experimental document command parser
 )
 Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use in chemistry (CN)
-\l__chemgreek_tmpa_int=\count322
-\g__chemgreek_tmpa_int=\count323
+\l__chemgreek_tmpa_int=\count328
+\g__chemgreek_tmpa_int=\count329
 )
-\l__mhchem_ce_distanceFromLastComma_int=\count324
+\l__mhchem_ce_distanceFromLastComma_int=\count330
 \__mhchem_arrow_extPgfLength_skip=\skip68
 \mhchem@minispace@tmp=\skip69
 \mhchem@minibackspace@tmp=\skip70
@@ -399,41 +425,60 @@ Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use 
 \mhchem@smallbondwidth=\skip75
 \mhchem@bondtmp@minussidebearingleft=\skip76
 \mhchem@bondtmp@minussidebearingright=\skip77
-\l__mhchem_option_version_int=\count325
-\mhchem@option@minusmathsidebearingleft=\dimen268
-\mhchem@option@minusmathsidebearingright=\dimen269
-\mhchem@option@minustextsidebearingleft=\dimen270
-\mhchem@option@minustextsidebearingright=\dimen271
-)) (./notes.aux (./ch4/Ch4.aux) (./ch5/Ch5.aux) (./ch6/Ch6.aux) (./ch9/Ch9.aux))
+\l__mhchem_option_version_int=\count331
+\mhchem@option@minusmathsidebearingleft=\dimen276
+\mhchem@option@minusmathsidebearingright=\dimen277
+\mhchem@option@minustextsidebearingleft=\dimen278
+\mhchem@option@minustextsidebearingright=\dimen279
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count332
+\Gm@cntv=\count333
+\c@Gm@tempcnt=\count334
+\Gm@bindingoffset=\dimen280
+\Gm@wd@mp=\dimen281
+\Gm@odd@mp=\dimen282
+\Gm@even@mp=\dimen283
+\Gm@layoutwidth=\dimen284
+\Gm@layoutheight=\dimen285
+\Gm@layouthoffset=\dimen286
+\Gm@layoutvoffset=\dimen287
+\Gm@dimlist=\toks37
+)) (./notes.aux (./ch3/Ch3.aux) (./ch4/Ch4.aux) (./ch5/Ch5.aux) (./ch6/Ch6.aux) (./ch9/Ch9.aux) (./ch11/Ch11.aux) (./ch12/Ch12.aux))
 \openout1 = `notes.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
  (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count326
-\scratchdimen=\dimen272
-\scratchbox=\box77
-\nofMPsegments=\count327
-\nofMParguments=\count328
-\everyMPshowfont=\toks36
-\MPscratchCnt=\count329
-\MPscratchDim=\dimen273
-\MPnumerator=\count330
-\makeMPintoPDFobject=\count331
-\everyMPtoPDFconversion=\toks37
+\scratchcounter=\count335
+\scratchdimen=\dimen288
+\scratchbox=\box81
+\nofMPsegments=\count336
+\nofMParguments=\count337
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count338
+\MPscratchDim=\dimen289
+\MPnumerator=\count339
+\makeMPintoPDFobject=\count340
+\everyMPtoPDFconversion=\toks39
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -441,7 +486,42 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 
-Package chemgreek Info: Activating mapping `default' on line 5.
+Package chemgreek Info: Activating mapping `default' on line 7.
+
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 483.69684pt, 56.90553pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23582pt, 56.90552pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69684pt
+* \textheight=731.23582pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
 
@@ -454,26 +534,33 @@ Package chemgreek Info: Activating mapping `default' on line 5.
 
 
 [2]
+\openout2 = `ch3/Ch3.aux'.
+
+ (./ch3/Ch3.tex)
+
+[3
+
+]
 \openout2 = `ch4/Ch4.aux'.
 
  (./ch4/Ch4.tex
 
-[3
+[4
+
+
 
 ])
 
-[4]
+[5]
 \openout2 = `ch5/Ch5.aux'.
 
- (./ch5/Ch5.tex
+ (./ch5/Ch5.tex)
 
-[5
+[6
 
 
 
-])
-
-[6]
+]
 \openout2 = `ch6/Ch6.aux'.
 
  (./ch6/Ch6.tex
@@ -482,18 +569,14 @@ Package chemgreek Info: Activating mapping `default' on line 5.
 
 
 
-]
+])
 
 [8]
-
-[9])
-
-[10]
 \openout2 = `ch9/Ch9.aux'.
 
  (./ch9/Ch9.tex
 
-[11
+[9
 
 
 
@@ -501,31 +584,57 @@ Package chemgreek Info: Activating mapping `default' on line 5.
 Missing character: There is no ; in font nullfont!
 
 
-[12]
+[10])
+
+[11]
+\openout2 = `ch11/Ch11.aux'.
+
+ (./ch11/Ch11.tex
+
+[12
+
+
+
+]
 
 [13]
 
-[14])
+[14]
 
-[15] (./notes.aux (./ch4/Ch4.aux) (./ch5/Ch5.aux) (./ch6/Ch6.aux) (./ch9/Ch9.aux))
+[15])
+
+[16]
+\openout2 = `ch12/Ch12.aux'.
+
+ (./ch12/Ch12.tex
+
+[17
+
+
+
+]
+
+[18])
+
+[19] (./notes.aux (./ch3/Ch3.aux) (./ch4/Ch4.aux) (./ch5/Ch5.aux) (./ch6/Ch6.aux) (./ch9/Ch9.aux) (./ch11/Ch11.aux) (./ch12/Ch12.aux))
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-07-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 17161 strings out of 475496
- 383303 string characters out of 5775990
- 1944957 words of memory out of 5000000
- 39542 multiletter control sequences out of 15000+600000
- 564133 words of font info for 57 fonts, out of 8000000 for 9000
+ 19550 strings out of 475496
+ 426579 string characters out of 5775990
+ 2018957 words of memory out of 5000000
+ 41882 multiletter control sequences out of 15000+600000
+ 564831 words of font info for 59 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 107i,17n,110p,448b,673s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </home/abrar/.texlive2024/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on notes.pdf (15 pages, 216219 bytes).
+ 107i,20n,110p,448b,1451s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/abrar/.texlive2024/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb>
+Output written on notes.pdf (19 pages, 288014 bytes).
 PDF statistics:
- 141 PDF objects out of 1000 (max. 8388607)
- 90 compressed objects within 1 object stream
+ 170 PDF objects out of 1000 (max. 8388607)
+ 108 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

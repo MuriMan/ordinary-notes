@@ -1,14 +1,425 @@
+\newcommand\setpolymerdelim[2]{\def\delimleft{#1}\def\delimright{#2}}
+\def\makebraces[#1,#2]#3#4#5{%
+	\edef\delimhalfdim{\the\dimexpr(#1+#2)/2}%
+	\edef\delimvshift{\the\dimexpr(#1-#2)/2}%
+	\chemmove{%
+		\node[at=(#4),yshift=(\delimvshift)]
+		{$\left\delimleft\vrule height\delimhalfdim depth\delimhalfdim
+	width0pt\right.$};%
+	\node[at=(#5),yshift=(\delimvshift)]
+	{$\left.\vrule height\delimhalfdim depth\delimhalfdim
+width0pt\right\delimright_{\rlap{$\scriptstyle#3$}}$};}}
+\setpolymerdelim()
+
 \section{Organic chemistry}
 \subsection{Formulae, functional groups and terminology}
 Structural formulae are unambigious descriptions of the way atoms in a molecule are arranged,
 showing double bonds between carbon atoms and each molecule bonded to each carbon, eg., 
-\ce{CH2=CH2}, \ce{CH3CH2OH}.
+\chemfig{CH_2=CH_2}, \ce{CH3CH2OH}.
 
-Displayed formulae show all the atoms and bonds between them in a molecule. 
+Displayed formulae show all the atoms and bonds between them in a molecule. An example, in the form
+of methane follows:
+\begin{center}
+\chemfig{C(-[:0]H)(-[:90]H)(-[:180]H)(-[:270]H)}
+\end{center}
 
 The general formulae of homologous series follow:
+
 \begin{itemize}
-	\item Alkanes, \ce{CnH{2n+2}}
+	\item Alkanes: \ce{C_nH_{2n+2}}.
+	\item Alkenes: \ce{C_nH_{2n}}.
+	\item Alcohols: \ce{C_nH_{2n+1}OH}.
+	\item Carboxylic acids: \ce{C_nH_{2n+1}COOH}.
 \end{itemize}
 
+Structural isomers are compounds with same molecular formulae but different structural formulae.
+For example, \ce{C4H8} has two structural isomers: \chemfig{CH_3CH=CHCH_3} and 
+\chemfig{CH_2=CHCH_2CH_3}.
 
+A functional group is an atom or group of atoms that determine the chemical properties of a 
+homologous series.
+
+All members of a homologous series has the following properties:
+\begin{itemize}
+	\item Have the same functional group.
+	\item Have the same general formula.
+	\item Differ by the next member by one \ce{-CH_2-} unit.
+	\item Display a trend in physical properties.
+	\item Sharing similar chemical properties.
+\end{itemize}
+
+A saturated organic compound is that in which all carbons are singly bonded, in other words, all
+carbon-carbon bonds in a saturated compound are single bonds. An unsaturated organic compound is
+that which has atleast one carbon-carbon double bond.
+
+\subsection{Naming organic compounds}
+
+The number of carbon atoms in a molecule of an organic compound determines its name, so does the
+homologous series it is a part of. The pattern is:
+\begin{center}
+	\begin{tabular}{c c}
+		number of carbons & name \\\hline
+		1 & meth- \\
+		2 & eth- \\
+		3 & prop- \\
+		4 & but- \\
+	\end{tabular}
+\end{center}
+The next in the series follow the geometric pattern of nomenclature (five-penta; six-hexa; ...).
+
+The end of the name of an organic compound follows, which depends on the homologous series it is a
+part of:
+\begin{center}
+	\begin{tabular}{c c}
+		homologous series & name \\\hline
+		alkane & -ane \\
+		alkane & -ene \\
+		alcohol & -ol \\
+		carboxylic acid & -oic acid \\
+	\end{tabular}
+\end{center}
+
+So a carboxylic acid with four carbons is called \textit{butanoic acid}.
+
+Alcohols and carboxylic acids react to form compounds called esters (see Section 11.7). They are
+composed of one alkyl part and another acidic part, and their nomenclature comes down to being
+\textit{alkyl acidoate}. An ester formed from ethanol and butanoic acid will be called ethyl 
+butanoate. The general structural and displayed formula for esters follow:
+
+% \chemfig{C(-[:0]H)(-[:90]H)(-[:180]H)(-[:270]H)}
+\begin{center}
+	\chemfig{R-C(=[:45]O)(-[:315]O-R')}
+\end{center}
+
+\begin{center}
+	\chemfig{RCOOR'}
+\end{center}
+where R is carbon side of the acid part and \chemfig{R'} is the carbon side of the alcohol part.
+
+\subsection{Fuels}
+
+There are three fossil fuels: coal, natural gas and petroleum. Methane is the main constituent of
+natural gas.
+
+Hydrocarbons are organic compounds containing carbon and hydrogen only. Petroleum is a liquid mixture
+of
+such hydrocarbons. All of these hydrocarbons all have different uses and they must be separated.
+Fractional distillation is used to do so, using a fractionating column that separates the 
+constituent hydrocarbons by rising them up depending on their properties. 
+
+So, as we observe the
+products from the bottom to the top of the fractionating column:
+\begin{itemize}
+	\item Compound chain length decreases.
+	\item Compound volatility increases.
+	\item Boiling points lower.
+	\item Viscosity\footnote{Viscosity is the resistance of flow of a fluid.} lowers.
+\end{itemize}
+
+The topmost fraction that is separated from petroleum is refinery gas, which is used for heating
+and cooking. Petrol, also called gasoline, is the next, used as motor fuel. Subsequently, naphtha
+is collected which is used as a chemical feedstock. Paraffin is used as a fuel in jet engines and
+heeting oil. Diesel oil is used as fuel in diesel engines which trucks and large vehicles use. Fuel
+oil is used in ships and home heating. Lubricating oil is used to make waxes and polishes. Lastly,
+the bottommost fraction is called bitumen, which is used to surface roads.
+
+\subsection{Alkanes}
+
+The bonding between all atoms in alkanes is single covalent, and hence they are saturated compounds
+\footnote{Note that they are saturated due to the carbons being singly bonded, the bonds between
+other atoms are not of importance in this case.}. Alkanes are generally unreactive compounds, 
+except when combusted and substituted by chlorine.
+
+In a substitution reaction, a single atom or group of atoms is replaced by another atom or group
+of atoms.
+
+The substitution of alkanes by chlorine is a photochemical reaction, where the activation energy
+is provided by ultraviolet light. An example of the reaction of chlorine and methane follows:
+
+\begin{center}
+	\schemestart
+		\chemfig{
+			C(-[:0]H)(-[:90]H)(-[:180]H)(-[:270]H) 
+		}
+		+
+		\chemfig{Cl-Cl}
+		\ce{->}
+		\chemfig{
+			C(-[:0]H)(-[:90]H)(-[:180]H)(-[:270]Cl) 
+		}
+		+
+		\chemfig{H-Cl}
+	\schemestop
+\end{center}
+
+\begin{center}
+	\ce{CH4 + Cl2 -> CH3Cl + HCl}
+\end{center}
+where the products are chloromethane, and hydrogen chloride.
+
+\subsection{Alkenes}
+
+The bonding in alkenes includes a carbon-carbon double bond, and hence they are unsaturated
+hydrocarbons. Alkenes are produced by the \textit{cracking} of longer chained alkanes, with 
+hydrogen as a byproduct, in presence of a catalyst at high a high temperature of around 
+\SI{500}{\celsius}. For example:
+\begin{center}
+	\ce{C10H22 ->[heat][catalyst] 5C2H4 + H2}
+\end{center}
+
+The fractional distillation of petroleum produces alkanes, but not enough to meet consumer demands.
+This is why catalytic cracking is performed on large chain alkanes, to meet the demand of the
+shorter chained alkenes.
+
+Aqueous bromine reacts with unsaturated compunds, losing its brown colour, this reaction does
+not happen with saturated compounds, however. The reaction of bromine with an unsaturated compound,
+ethene, follows:
+\begin{center}
+	\schemestart
+		\chemfig{
+			% C(-[:0]H)(-[:90]H)(-[:180]H)(-[:270]H) 
+			C(-[:90]H)(-[:270]H)=C(-[:90]H)(-[:270]H)
+		}
+		+
+		\chemfig{Br-Br}
+		\ce{->}
+		\chemfig{
+			C(-[:90]H)(-[:270]H)(-[:180]Br)-C(-[:90]H)(-[:270]H)(-[:0]Br)
+		}
+	\schemestop
+\end{center}
+\begin{center}
+	\schemestart
+		\chemfig{
+			CH=CH
+		}
+		+
+		\chemfig{Br_2}
+		\ce{->}
+		\chemfig{
+			CHBrCHBr
+		}
+	\schemestop
+\end{center}
+where the product is called dibromoethane.
+
+The above is an example of an addition reaction, that which is where two or more reactants form one
+product. Alkenes undergo two more addition reactions.
+
+\textbf{Hydrogen in presence of nickel.} An alkene will react with hydrogen in heated conditions,
+(150-300\SI{}{\celsius}), in presence of a nickel catalyst, to form a corresponding alkane.
+\begin{center}
+	\schemestart
+		\chemfig{
+			% C(-[:0]H)(-[:90]H)(-[:180]H)(-[:270]H) 
+			C(-[:90]H)(-[:270]H)=C(-[:90]H)(-[:270]H)
+		}
+		+
+		\chemfig{H-H}
+		\ce{->[Ni][150-300\SI{}{\celsius}]}
+		\chemfig{
+			C(-[:90]H)(-[:270]H)(-[:180]H)-C(-[:90]H)(-[:270]H)(-[:0]H)
+		}
+	\schemestop
+\end{center}
+\begin{center}
+	\schemestart
+		\chemfig{
+			CH=CH
+		}
+		+
+		\chemfig{H_2}
+		\ce{->[Ni][150-300\SI{}{\celsius}]}
+		\chemfig{
+			CH_3CH_3
+		}
+	\schemestop
+\end{center}
+
+\textbf{Steam in presence of phosphoric acid.} An alkene reacts with steam at a temperature of
+\SI{300}{\celsius}, at a pressure of \SI{6000}{kPa} 
+in presence of phosphoric acid as a catalyst to form the corresponding alcohol.
+\begin{center}
+	\schemestart
+		\chemfig{
+			% C(-[:0]H)(-[:90]H)(-[:180]H)(-[:270]H) 
+			C(-[:90]H)(-[:270]H)=C(-[:90]H)(-[:270]H)
+		}
+		+
+		\chemfig{H-OH}
+		\ce{->[\ce{H3PO4}][\SI{300}{\celsius}, \SI{6000}{kPa}]}
+		\chemfig{
+			C(-[:90]H)(-[:270]H)(-[:180]H)-C(-[:90]H)(-[:270]H)(-[:0]OH)
+		}
+	\schemestop
+\end{center}
+\begin{center}
+	\schemestart
+		\chemfig{
+			CH=CH
+		}
+		+
+		\chemfig{H_2O}
+		\ce{->[\ce{H3PO4}][\SI{300}{\celsius}, \SI{6000}{kPa}]}
+		\chemfig{
+			CH_3CH_2OH
+		}
+	\schemestop
+\end{center}
+
+\subsection{Alcohols}
+
+Ethanol is an alcohol that can be produced by two methods.
+
+\textbf{Fermentation of glucose.} Aqueous glucose can be fermented at 25-30 \SI{}{\celsius} in the
+presence of yeast and in the absence of oxygen. The reaction is:
+\begin{center}
+	\ce{C6H12O6 ->[yeast][enzymes] 2C2H5OH + 2CO2}
+\end{center}
+
+\textbf{Catalytic addition of steam.} see the end of Section 11.5.
+
+The ethanol produced by fermentation comes from a renewable source, in this way, when the ethanol
+is used as a fuel it can be said to be ``carbon neutral". It uses relatively simple large 
+apparatus. The ethanol in this method is made by a batch process, where the process needs to be
+started anew each time. It is a relatively slow process, and the ethanol produced must be
+subsequently purified through distillation.
+
+The ethanol by cat-hydration comes from a non-renewable source in the form of petroleum. It requires
+small scale apparatus, which can withstand pressure. The ethanol is produces in a continuous
+reaction with a high reaction rate, yielding very pure ethanol. However, it is a sophisticated and
+complex method.
+
+Alcohols completely combust, i.e., react with oxygen\footnote{Any reaction with oxygen is said 
+called burning in oxygen.}, to form water and carbon dioxide. When they combust incompletely, they
+form carbon monoxide and water.
+
+\begin{center}
+	\ce{C2H5OH + 7/2O2 -> 2CO2 + 3H2O}
+\end{center}
+is an example of complete combustion.
+\begin{center}
+	\ce{C2H5OH + 5/2O2 -> 2CO + 3H2O}
+\end{center}
+is an example of incomplete combustion.
+
+Ethanol is used as a solvent for paints, glues, perfumes, aftershaves and printing inks. The
+combustion of ethanol produces a lot of heat, which can be used in engines as fuel when ethanol
+is mixed with petrol.
+
+\subsection{Carboxylic acids}
+
+All carboxylic acids have a \chemfig{-COOH} group, which is what gives each acid its acidic 
+property as it is this group that disassociates to give the hydrogen ion:
+\begin{center}
+	\ce{COOH -> COO- + H+}
+\end{center}
+
+\textbf{Reactions with metals.} As with acids, the reaction of carboxylic acids with metals forms
+a metal salt and hydrogen gas.
+
+\begin{center}
+	\ce{2RCOOH + 2$\Lambda$ -> 2RCOO$\Lambda$ + H2}
+\end{center}
+where $\Lambda$ is a metal, R is a placeholder for the remaining part of the carboxylic acid.
+
+\textbf{Reactions with bases.} As with acids, the reactions of carboxylic acids with bases forms
+a metal salt and water.
+
+\begin{center}
+	\ce{RCOOH + $\Lambda$OH -> RCOO$\Lambda$ + H2O}
+\end{center}
+
+\textbf{Reactions with carbonates.} As with acids, the reactions of carboxylic acids with bases 
+forms a metal salt, water and carbon dioxide.
+\begin{center}
+	\ce{RCOOH + $\Lambda$CO3 -> RCOO$\Lambda$ + H2O + CO2}
+\end{center}
+Ethanoic acid can be formed from ethanol by two methods. 
+When ethanol reacts with an oxidising
+agent, it forms ethanoic acid. Bacteria may also oxidise vinegar, which is ethanol to form ethanoic
+acid:
+
+\begin{center}
+	\ce{C2H5OH + 2[O] -> CH3COOH + H2O}
+\end{center}
+
+When carboxylic acids and alcohols react in presence of sulfuric acid as a catalyst, an ester and
+water is formed.
+
+\begin{center}
+	\schemestart
+	\chemfig{R-C(=[:45]O)(-[:315]O(-H))}
+	+
+	\chemfig{R-O-H}
+	\ce{<=>[H2SO4]}
+	\chemfig{R-C(=[:45]O)(-[:315]O-R')}
+	+
+	\chemfig{H-OH}
+	\schemestop
+\end{center}
+\begin{center}
+	\schemestart
+	\chemfig{RCOOH}
+	+
+	\chemfig{R'OH}
+	\ce{<=>[H2SO4]}
+	\chemfig{RCOOR'}
+	+
+	\ce{H2O}
+	\schemestop
+\end{center}
+
+\subsection{Polymers}
+
+A polymer is a large molecule built up from smaller constituent molecules, which are called 
+monomers. The process by which monomers form polymers is called polymerisation, which is of two
+types.
+
+\textbf{Addition polymerisation.} In addition polymerisation, the monomers join up to form the
+polymer and nothing else, which is a form of addition reaction and hence the name. Alkenes, under
+high pressure, heat and a catalyst will react with each other to form a polymer. An example with
+ethene is given, where $n$, a very large number of ethene molecules react to give an $n$-long chain
+of ethene called poly(ethene).
+
+\begin{center}
+	\ce{\textit{n} (\chemfig{CH_2=CH_2})}
+	\ce{->[high pressure][heat, catalyst]}
+	\chemfig{\vphantom{CH_2}-[@{op,.75}]CH_2-CH_2-[@{cl,0.25}]}
+	\polymerdelim[height = 4pt, indice = \!\!n]{op}{cl}
+\end{center}
+The \chemfig{CH_2=CH_2} is called the repeat unit of poly(ethene), because its repetition is what
+forms poly(ethene). Note the loss of \chemfig{C=C} after polymerisation, which applies to any and
+all alkenes undergoing the process.
+
+\textbf{Condensation polymerisation.} In condensation polymerisation, water is formed usually, as
+the byproduct. There are two condensation polymers to study: polyamides and polyesters. The amine
+functional group is \chemfig{NH_2-}; that for carboxylic acids is \chemfig{-COOH} and alcohols have
+\chemfig{-OH} as their functional group. For polymers formed through condensation, there are three
+different monomers:
+
+\begin{center}
+	\chemfig{N(-[:135]H)(-[:225]H)-R-N(-[:45]H)(-[:315]H)}
+\end{center}
+is a diamine (two amine groups).
+
+\begin{center}
+	\chemfig{C(=[:135]O)(-[:225]O(-[:180]H))-R-C(-[:45]O)(-[:315]O-H)}
+\end{center}
+is a dicarboxylic acid (two carboxyl groups).
+
+\begin{center}
+	\chemfig{H-O-R-O-H}
+\end{center}
+is a diol (two alcohol groups).
+
+% \begin{center}
+% 	\chemfig{C(=[:135]O)(-[:225]O(-[:180]H))-C(-[:90]H)(-[:270]R)-N(-[:45]H)(-[:315]H)}
+% \end{center}
+% is an amino acid.
+
+In the above, the R is a variable carbon containing group. Note that, when reacting, a carboxylic
+acid group loses \chemfig{-OH}, and the alcohol and amine groups lose \chemfig{-H}.
+
+\textbf{Polyamides.} The polymerisation of dicarboxylic acids and diamines form polyamides, with
+amide linkages.
