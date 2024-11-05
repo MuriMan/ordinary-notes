@@ -28,9 +28,9 @@
 \contentsline {subsection}{\numberline {6.6}Alcohols}{14}{}%
 \contentsline {subsection}{\numberline {6.7}Carboxylic acids}{15}{}%
 \contentsline {subsection}{\numberline {6.8}Polymers}{15}{}%
-\contentsline {section}{\numberline {7}Experimental techniques and chemical analysis}{17}{}%
-\contentsline {subsection}{\numberline {7.1}Experimental design}{17}{}%
-\contentsline {subsection}{\numberline {7.2}Acid-base titrations}{17}{}%
-\contentsline {subsection}{\numberline {7.3}Chromatography}{17}{}%
-\contentsline {subsection}{\numberline {7.4}Separation and purification}{17}{}%
-\contentsline {subsection}{\numberline {7.5}Identification of ions and gases}{18}{}%
+\contentsline {section}{\numberline {7}Experimental techniques and chemical analysis}{18}{}%
+\contentsline {subsection}{\numberline {7.1}Experimental design}{18}{}%
+\contentsline {subsection}{\numberline {7.2}Acid-base titrations}{18}{}%
+\contentsline {subsection}{\numberline {7.3}Chromatography}{18}{}%
+\contentsline {subsection}{\numberline {7.4}Separation and purification}{18}{}%
+\contentsline {subsection}{\numberline {7.5}Identification of ions and gases}{19}{}%

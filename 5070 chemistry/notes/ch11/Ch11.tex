@@ -246,10 +246,10 @@ in presence of phosphoric acid as a catalyst to form the corresponding alcohol.
 			C(-[:90]H)(-[:270]H)=C(-[:90]H)(-[:270]H)
 		}
 		+
-		\chemfig{H-OH}
+		\chemfig{H-O-H}
 		\ce{->[\ce{H3PO4}][\SI{300}{\celsius}, \SI{6000}{kPa}]}
 		\chemfig{
-			C(-[:90]H)(-[:270]H)(-[:180]H)-C(-[:90]H)(-[:270]H)(-[:0]OH)
+			C(-[:90]H)(-[:270]H)(-[:180]H)-C(-[:90]H)(-[:270]H)(-[:0]O-H)
 		}
 	\schemestop
 \end{center}
@@ -394,8 +394,8 @@ all alkenes undergoing the process.
 
 \textbf{Condensation polymerisation.} In condensation polymerisation, water is formed usually, as
 the byproduct. There are two condensation polymers to study: polyamides and polyesters. The amine
-functional group is \chemfig{NH_2-}; that for carboxylic acids is \chemfig{-COOH} and alcohols have
-\chemfig{-OH} as their functional group. For polymers formed through condensation, there are three
+functional group is \chemfig[atom sep=0.5cm]{NH_2-}; that for carboxylic acids is \chemfig[atom sep=0.5cm]{-COOH} and alcohols have
+\chemfig[atom sep=0.5cm]{-OH} as their functional group. For polymers formed through condensation, there are three
 different monomers:
 
 \begin{center}
@@ -404,7 +404,7 @@ different monomers:
 is a diamine (two amine groups).
 
 \begin{center}
-	\chemfig{C(=[:135]O)(-[:225]O(-[:180]H))-R-C(-[:45]O)(-[:315]O-H)}
+	\chemfig{C(=[:135]O)(-[:225]O(-[:180]H))-R-C(=[:45]O)(-[:315]O-H)}
 \end{center}
 is a dicarboxylic acid (two carboxyl groups).
 
@@ -419,7 +419,86 @@ is a diol (two alcohol groups).
 % is an amino acid.
 
 In the above, the R is a variable carbon containing group. Note that, when reacting, a carboxylic
-acid group loses \chemfig{-OH}, and the alcohol and amine groups lose \chemfig{-H}.
+acid group loses \chemfig[atom sep=0.5cm]{-OH}, and the alcohol and amine groups lose 
+\chemfig[atom sep=0.6cm]{-H}.
 
 \textbf{Polyamides.} The polymerisation of dicarboxylic acids and diamines form polyamides, with
 amide linkages.
+
+\begin{center}
+	\schemestart
+	\chemfig[atom sep=0.7cm]{C(=[:135]O)(-[:225]O(-[:180]H))-R-C(-[:45]O)(-[:315]O-H)}
+	+
+	\chemfig[atom sep=0.7cm]{N(-[:135]H)(-[:225]H)-R'-N(-[:45]H)(-[:315]H)}
+	\ce{->}
+	\chemfig[atom sep=0.7cm]{C(=[:90]O)(-[:180]N(-[:90]H)(-[:180]R'-[:180]))-R-C(=[:90]O)(-[:0]N(-[:90]H)(-R'-))}
+	\schemestop
+\end{center}
+where,
+\begin{center}
+	\schemestart
+	\chemfig{-N(-[:90]H)-C(=[:90]O)-}
+	\schemestop
+\end{center}
+is an amide linkage.
+
+\textbf{Polyesters.} The condensation polymerisation of dicarboxylic acids with diols form 
+polyesters.
+\begin{center}
+	\schemestart
+	\chemfig[atom sep=0.7cm]{C(=[:135]O)(-[:225]O(-[:180]H))-R-C(-[:45]O)(-[:315]O-H)}
+	+
+	\chemfig[atom sep=0.7cm]{H-O-R'-O-H}
+	\ce{->}
+	\chemfig[atom sep=0.7cm]{C(=[:90]O)(-[:180]O(-[:180]R'-[:180]))-R-C(=[:90]O)(-[:0]O(-R'-))}
+	\schemestop
+\end{center}
+where,
+\begin{center}
+	\schemestart
+	\chemfig{-O-C(=[:90]O)}
+	\schemestop
+\end{center}
+is an amide linkage.
+
+In addition polymerisation, many molecules of a single unsaturated monomer form a single polymer.
+The formation occurs through an addition reaction, where the monomers join together by opening the
+\chemfig[atom sep=0.5cm]{C=C} bond. Only the polymer is formed as the single product, which is
+non-biodegradable and acid resistant.
+
+In condensation polymerisation, molecules of two monomers with reactive functional groups at the
+ends of the monomer. A condensation reaction occurs during polymerisation, where a small molecule,
+usually water, forms every time a monomer is appended to the polymer chain. The products can be
+biodegradable, and acids or alkalis can reduce polymers back into monomers.
+
+Plastics are polymers which can be shaped under heat and pressure, making them very versatile.
+Plastics do not biodegrade, so disposal of them tends to be problematic. Landfill sites get filled
+up by plastics, burning them releases toxic gases. The accumulate in oceans, harming marine life.
+
+\textbf{Nylon.} Nylone is a polyamide with the following structure:
+\begin{center}
+	\chemfig[atom sep=0.7cm]{-C(=[:90]O)-R-C(=[:90]O)-N(-[:270]H)-R'-N(-[:270]H)-C(=[:90]O)-R-C(=[:90]O)-N(-[:270]H)-R'-N(-[:270]H)-C(=[:90]O)-R-}
+\end{center}
+Nylons form fibre like structures, which are very strong. These are used for fishing nets, fishing
+lines and textiles.
+
+\textbf{PET.} PET is a polyester, with a structure identical to that shown in the polyester 
+subsection. It is used in food packaging, as synthetic fibre and plastic bottles.
+
+\textbf{Proteins.} Proteins are natural polyamides formed from amino acids which have general 
+structure as follows:
+\begin{center}
+	\chemfig{N(-[:135]H)(-[:225]H)-C(-[:90]R)(-[:270]H)-C(=[:45]O)(-[:315]O-H)}
+\end{center}
+Notice the presence of both amine and carboxylic acid groups. The R is a variable group, which
+determines the type of amino acid, of which there are twenty.
+
+After polymerisation, a protein
+forms which has a structure:
+
+\begin{center}
+	\chemfig{
+	-N(-[:90]H)-R-C(=[:90]O)-N(-[:270]H)-R'-C(=[:270]O)-N(-[:90]H)-R''-C(=[:90]O)-
+	}
+\end{center}
+
