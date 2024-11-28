@@ -1,12 +1,9 @@
 # Fdb version 3
-["pdflatex"] 1731257263 "main.tex" "main.pdf" "main" 1731257264
-  "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
+["pdflatex"] 1731257574 "main.tex" "main.pdf" "main" 1731257575
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1136768653 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1248133631 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
-  "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1248133631 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
-  "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1248133631 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty" 1644112042 7237 bdd120a32c8fdb4b433cf9ca2e7cd98a ""
@@ -111,8 +108,8 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1723535045 76065 dfe352c4369ad17f40298b3988ebd410 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1723535061 6879242 06e182de2e5efe8b8242f1dae1427f70 ""
   "/usr/local/texlive/2024/texmf.cnf" 1723535045 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "main.aux" 1731257264 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
-  "main.tex" 1731257261 3463 cd6167df3349bb821b6bed4981291e85 ""
+  "main.aux" 1731257575 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
+  "main.tex" 1731257574 2808 4729a2feff484c112b1a6bf67ebffcd6 ""
   (generated)
   "main.aux"
   "main.log"

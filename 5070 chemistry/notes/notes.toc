@@ -12,25 +12,31 @@
 \contentsline {subsection}{\numberline {4.2}Rate of reaction}{7}{}%
 \contentsline {subsection}{\numberline {4.3}Reversible reactions and equilibrium}{7}{}%
 \contentsline {subsection}{\numberline {4.4}Redox}{8}{}%
-\contentsline {section}{\numberline {5}Metals}{9}{}%
-\contentsline {subsection}{\numberline {5.1}Properties of metals}{9}{}%
-\contentsline {subsection}{\numberline {5.2}Uses of metals}{9}{}%
-\contentsline {subsection}{\numberline {5.3}Alloys and their properties}{9}{}%
-\contentsline {subsection}{\numberline {5.4}Reactivity series}{10}{}%
-\contentsline {subsection}{\numberline {5.5}Corrosion of metals}{10}{}%
-\contentsline {subsection}{\numberline {5.6}Extraction of metals}{11}{}%
-\contentsline {section}{\numberline {6}Organic chemistry}{12}{}%
-\contentsline {subsection}{\numberline {6.1}Formulae, functional groups and terminology}{12}{}%
-\contentsline {subsection}{\numberline {6.2}Naming organic compounds}{12}{}%
-\contentsline {subsection}{\numberline {6.3}Fuels}{13}{}%
-\contentsline {subsection}{\numberline {6.4}Alkanes}{13}{}%
-\contentsline {subsection}{\numberline {6.5}Alkenes}{14}{}%
-\contentsline {subsection}{\numberline {6.6}Alcohols}{14}{}%
-\contentsline {subsection}{\numberline {6.7}Carboxylic acids}{15}{}%
-\contentsline {subsection}{\numberline {6.8}Polymers}{15}{}%
-\contentsline {section}{\numberline {7}Experimental techniques and chemical analysis}{18}{}%
-\contentsline {subsection}{\numberline {7.1}Experimental design}{18}{}%
-\contentsline {subsection}{\numberline {7.2}Acid-base titrations}{18}{}%
-\contentsline {subsection}{\numberline {7.3}Chromatography}{18}{}%
-\contentsline {subsection}{\numberline {7.4}Separation and purification}{18}{}%
-\contentsline {subsection}{\numberline {7.5}Identification of ions and gases}{19}{}%
+\contentsline {section}{\numberline {5}Acids, bases and salts}{9}{}%
+\contentsline {subsection}{\numberline {5.1}The characteristic properties of acids and bases}{9}{}%
+\contentsline {section}{\numberline {6}Metals}{10}{}%
+\contentsline {subsection}{\numberline {6.1}Properties of metals}{10}{}%
+\contentsline {subsection}{\numberline {6.2}Uses of metals}{10}{}%
+\contentsline {subsection}{\numberline {6.3}Alloys and their properties}{10}{}%
+\contentsline {subsection}{\numberline {6.4}Reactivity series}{11}{}%
+\contentsline {subsection}{\numberline {6.5}Corrosion of metals}{11}{}%
+\contentsline {subsection}{\numberline {6.6}Extraction of metals}{12}{}%
+\contentsline {section}{\numberline {7}Chemistry of the environment}{13}{}%
+\contentsline {subsection}{\numberline {7.1}Water}{13}{}%
+\contentsline {subsection}{\numberline {7.2}Fertilisers}{13}{}%
+\contentsline {subsubsection}{\numberline {7.2.1}Air quality and climate}{13}{}%
+\contentsline {section}{\numberline {8}Organic chemistry}{15}{}%
+\contentsline {subsection}{\numberline {8.1}Formulae, functional groups and terminology}{15}{}%
+\contentsline {subsection}{\numberline {8.2}Naming organic compounds}{15}{}%
+\contentsline {subsection}{\numberline {8.3}Fuels}{16}{}%
+\contentsline {subsection}{\numberline {8.4}Alkanes}{16}{}%
+\contentsline {subsection}{\numberline {8.5}Alkenes}{17}{}%
+\contentsline {subsection}{\numberline {8.6}Alcohols}{17}{}%
+\contentsline {subsection}{\numberline {8.7}Carboxylic acids}{18}{}%
+\contentsline {subsection}{\numberline {8.8}Polymers}{18}{}%
+\contentsline {section}{\numberline {9}Experimental techniques and chemical analysis}{21}{}%
+\contentsline {subsection}{\numberline {9.1}Experimental design}{21}{}%
+\contentsline {subsection}{\numberline {9.2}Acid-base titrations}{21}{}%
+\contentsline {subsection}{\numberline {9.3}Chromatography}{21}{}%
+\contentsline {subsection}{\numberline {9.4}Separation and purification}{21}{}%
+\contentsline {subsection}{\numberline {9.5}Identification of ions and gases}{22}{}%

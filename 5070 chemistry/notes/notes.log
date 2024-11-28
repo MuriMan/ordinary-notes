@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.13)  31 OCT 2024 21:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.13)  22 NOV 2024 19:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -449,7 +449,7 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layouthoffset=\dimen286
 \Gm@layoutvoffset=\dimen287
 \Gm@dimlist=\toks37
-)) (./notes.aux (./ch3/Ch3.aux) (./ch4/Ch4.aux) (./ch5/Ch5.aux) (./ch6/Ch6.aux) (./ch9/Ch9.aux) (./ch11/Ch11.aux) (./ch12/Ch12.aux))
+)) (./notes.aux (./ch3/Ch3.aux) (./ch4/Ch4.aux) (./ch5/Ch5.aux) (./ch6/Ch6.aux) (./ch7/Ch7.aux) (./ch9/Ch9.aux) (./ch10/Ch10.aux) (./ch11/Ch11.aux) (./ch12/Ch12.aux))
 \openout1 = `notes.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -572,11 +572,25 @@ Package chemgreek Info: Activating mapping `default' on line 7.
 ])
 
 [8]
+\openout2 = `ch7/Ch7.aux'.
+
+ (./ch7/Ch7.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--7
+
+ []
+
+)
+
+[9
+
+
+
+]
 \openout2 = `ch9/Ch9.aux'.
 
  (./ch9/Ch9.tex
 
-[9
+[10
 
 
 
@@ -584,59 +598,75 @@ Package chemgreek Info: Activating mapping `default' on line 7.
 Missing character: There is no ; in font nullfont!
 
 
-[10])
+[11])
 
-[11]
+[12]
+\openout2 = `ch10/Ch10.aux'.
+
+ (./ch10/Ch10.tex
+Underfull \hbox (badness 10000) in paragraph at lines 26--29
+
+ []
+
+
+
+[13
+
+
+
+])
+
+[14]
 \openout2 = `ch11/Ch11.aux'.
 
  (./ch11/Ch11.tex
 
-[12
+[15
 
 
 
 ]
 
-[13]
-
-[14]
-
-[15]
-
-[16])
+[16]
 
 [17]
+
+[18]
+
+[19])
+
+[20]
 \openout2 = `ch12/Ch12.aux'.
 
  (./ch12/Ch12.tex
 
-[18
+[21
 
 
 
 ]
 
-[19])
+[22])
 
-[20] (./notes.aux (./ch3/Ch3.aux) (./ch4/Ch4.aux) (./ch5/Ch5.aux) (./ch6/Ch6.aux) (./ch9/Ch9.aux) (./ch11/Ch11.aux) (./ch12/Ch12.aux))
+[23] (./notes.aux (./ch3/Ch3.aux) (./ch4/Ch4.aux) (./ch5/Ch5.aux) (./ch6/Ch6.aux) (./ch7/Ch7.aux) (./ch9/Ch9.aux) (./ch10/Ch10.aux) (./ch11/Ch11.aux) (./ch12/Ch12.aux))
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-07-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 20123 strings out of 475496
- 436753 string characters out of 5775990
+ 20175 strings out of 475496
+ 437897 string characters out of 5775990
  2063957 words of memory out of 5000000
- 42455 multiletter control sequences out of 15000+600000
+ 42491 multiletter control sequences out of 15000+600000
  564831 words of font info for 59 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  107i,20n,110p,448b,1460s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/abrar/.texlive2024/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb>
-Output written on notes.pdf (20 pages, 296130 bytes).
+Output written on notes.pdf (23 pages, 302791 bytes).
 PDF statistics:
- 173 PDF objects out of 1000 (max. 8388607)
- 110 compressed objects within 2 object streams
+ 182 PDF objects out of 1000 (max. 8388607)
+ 116 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

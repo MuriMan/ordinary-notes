@@ -1,0 +1,88 @@
+\section{Software}
+\subsection{Types of software and interrupts}
+
+\textbf{System software.} System software provides the services that the computer requires, 
+this includes the operating system and utility software. Utility software provides ``housekeeping``
+services, such as clean up and defragmentation of drives.
+
+\textbf{Application software.} Application software provides the services required by the user,
+examples include word processors, spreadsheets etc.\\
+
+An operating system provides an interface for the user, through which the user may enter their 
+inputs and outputs. Interfaces may be in the form of graphical user interfaces (GUIs), command line
+interfaces (CLIs) and natural language interfaces (NLIs) which allows the user to enter any text
+commands or speak them, which the OS then analyses and performs.
+
+It manages the user's files, in terms of file creating, storage within directories and movement
+of those files amongst created and deleted directories.
+
+The operating system manages the user's peripherals\footnote{Input and output devices.} and their
+corresponding driver software, which translates data from the peripheral to the computer and
+vice versa.
+
+A computer uses memory to store data. The movement of data to and from hardware, making sure of
+memory being correctly allocated, and preventing two applications from accessing the same memory
+location is the job of the OS.
+
+The OS handles which processes are to be processed when by the CPU, so when multiple applications
+are running at the same time, the OS is that which controls whose operation is to be executed next.
+
+It is the OS which is the platform on which applications run, it fetches instructions from the
+application and executes them.
+
+The OS provides system security by encrypting data and whatnot.
+
+The OS handles the users and accounts of those users of a certain computer. Using the password
+for each user, the data of the multiple users are kept secure from one another, unless stated
+otherwise.
+
+Understand that, applications run on the operating system, which runs on the firmware, which runs
+on the bootloader, which runs directly on the hardware.
+
+Interrupts are generated when something happens which needs the processor's attention. When an
+interrupt is generated it is put into a queue according to its priority, where the sequence of
+instructions is:
+
+\begin{enumerate}
+	\item When the processor finishes its current fetch-decode-execute cycle, it checks the
+		interrupt queue.
+	\item Sees whether there is an interrupt with a higher priority than the next schedules FDE
+		cycle.
+	\item If there is, fetch the interrupt.
+	\item Check source of interrupt.
+	\item Call the relevant interrupt service routine (ISR), which is a sequence of instructions
+		that handle the interrupt.
+	\item When finished, a higher priority interrupt is called.
+	\item If there is no such interrupt, the next FDE cycle is executed.
+\end{enumerate}
+
+Interrupts may be caused by software or hardware. Software interrupts consist of problems in code
+such as division by zero and two programs trying to access the same memory location. Hardware
+interrupts consist of simultaneous peripheral input, pressing the mouse and the keyboard at the
+same time is an example.
+
+\subsection{Types of programming language, translators and integrated development environments (IDEs)}
+
+A high level programming language is that which uses English-like keywords. Python, Java and
+VB.NET are examples. Such languages are easier to read, write and amend for humans. Instructions
+in such languages are easier to debug, and are machine independent, i.e., portable. However,
+these languages must be converted to a low-level language before it can be run. One statement
+in a high level language can represent multiple low level languages. However, high level languages
+cannot directly manipulate hardware.
+
+A low level language is of two types, machine code and assembly language. A computer processes
+machine code, which is in binary. Any high level language is converted to machine code before
+being executed. Different computers may have different machine code, meaning that such code is
+non portable.
+
+Assembly language is an in between stage that use mnemonics to represent code, all high level
+languages are converted to assembly before being converted to machine code. Coding in assembly
+is hence faster as there is no in between stage before being converted to machine code, and such
+code can be used to directly manipulate hardware.
+
+The conversion of assembly language to machine code is done by a piece of translator software 
+called an assembler. A compiler is also such a translator software, which translates the entire
+code into machine code in one go, taking much time and also reports all errors in code at once.
+An interpreter is translator software that translates code to machine code line by line, as they
+are executed and stops execution when an error is found. Translating in this method tends to be
+faster.
